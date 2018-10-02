@@ -1,6 +1,5 @@
-import requests
-rate = requests.get('https://blockchain.info/ticker')
-print(rate.text)
+def bitcoin_rate():			#
+	return requests.get('https://blockchain.info/ticker')
 
 
-'''https://blockchain.info/tobtc?currency=USD&value=1'''
+#link for direct bitcoin rate to U.S. dollar: https://blockchain.info/tobtc?currency=USD&value=1
