@@ -1,17 +1,32 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const app = express();
-const port = 8443;
+#!/usr/bin/env nodejs
+const http = require('http')
+const  qs = require('querystring');
 
-app.use(bodyParser.json());
+const server = http.createServer(function(req, res) {
 
-app.post('/', function(req, res) {
+	if (req.method == 'POST') {
+		var body = '';
+		var context = '';
+		req.on('data', function (data) {
+			body += data
 
-	var message = req.body.message;
+			if (body.length > 1e6) {
+				
+				
+				req.connection.destroy();
+			}
+		});
 
-	console.log(message);  //optional
+		req.on('end', function() {
+			
+			context  = console.log(JSON.parse(body))
 
-});
+		})
 
+		console.log(context);
+	}
 
-app.listen(port, () => console.log(`App listening on port ${port}!`));
+})
+
+server.listen(8443, 'localhost');
+
