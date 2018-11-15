@@ -24,7 +24,7 @@ const server = http.createServer(function(req, res) {
 
 		req.on('end', function() {
 
-			message = JSON.parse(body));
+			message = JSON.parse(body);
 
 			console.log(message);
 
