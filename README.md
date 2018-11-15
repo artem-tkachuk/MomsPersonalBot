@@ -1,7 +1,7 @@
 MomsPersonalBot
 
 
-Пишем на Python с использованием библиотеки requests
+Пишем на JavaScript с использованием библиотеки requests
 
 Планируем в Trello
 
@@ -9,4 +9,3 @@ MomsPersonalBot
 
 
 ©KsArt, 2018
-
