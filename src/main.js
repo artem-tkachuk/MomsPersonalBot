@@ -25,20 +25,20 @@ const server = http.createServer(function(req, res) {
 
 			body = JSON.parse(body);
 
-			console.log(body);
+			var chat_id = body.message.chat.id;
+
+			var url = 'https://api.telegram.org/bot' + token + '/' + "sendmessage?" + "chat_id=" + chat_id + "&" + "text=Бот уже работает круглосуточно и скоро сможет выполнять все свои функции!!!";
+
+			request(url, function(error, response, body) {
+
+				console.log(body);
+
+			});
 
 		});
 
 
-		chat_id = body.message.chat.id;
 
-		var url = 'https://api.telegram.org/bot' + token + '/' + "sendmessage?" + "chat_id=" + chat_id + "&" + "text=Бот уже работает круглосуточно и скоро сможет выполнять все свои функции!!!";
-
-		request(url, function(error, response, body) {
-
-			console.log(body);
-
-		});
 
 	}
 
