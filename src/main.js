@@ -6,63 +6,64 @@ const token = '743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU';
 
 const server = http.createServer(function(req, res) {
 
-	var curr_update = 0;
+        var curr_update = 0;
 
-	if (req.method == 'POST') {
+        if (req.method == 'POST') {
 
-		var body = '';
+                var body = '';
 
-		req.on('data', function (data) {
+                req.on('data', function (data) {
 
-			body += data
+                        body += data
 
-			if (body.length > 1e6) {
+                        if (body.length > 1e6) {
 
-				req.connection.destroy();
+                                req.connection.destroy();
 
-			}
-		});
+                        }
+                });
 
-		req.on('end', function() {
+                req.on('end', function() {
 
-			body = JSON.parse(body);
-			console.log(body);
+                        body = JSON.parse(body);
+                        console.log(body);
 
-			update_id = body.update_id;
-		
-			if (update_id != curr_update)	{
+                        update_id = body.update_id;
 
-			curr_update = update_id;
-		
-			var chat = body.message.chat.id;
+                        if (update_id != curr_update)   {
 
-			var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage";
+                              curr_update = update_id;
 
-			let options = {
+                              var chat = body.message.chat.id;
 
-				url: URL,
+                              var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage";
 
-    				form: {
+                              let options = {
 
-        				chat_id: chat,
-					text: "Бот уже работает круглосуточно, но пока ничего не умеет! Скоро он исправится!"
+                                    url: URL,
 
-    				}
+                                    form: {
 
-			};
+                                          chat_id: chat,
 
-			request.post(options, function(err, res, body) {
+                                          text: "Бот уже работает круглосуточно, но пока ничего не умеет! Скоро он исправится"
 
-				let json_response = JSON.parse(body);
-	console.log(json_response);			
-});
+                                    }
 
-		});
+                              };
 
+                              request.post(options, function(err, res, body) {
 
+                                    let json_response = JSON.parse(body);
 
-}
-	}
+                                    console.log(json_response);
+
+                              });
+                        }
+
+                });
+
+      }
 
 });
 
