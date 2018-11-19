@@ -31,15 +31,15 @@ const server = http.createServer(function(req, res) {
 		});
 
 
-		chat_id = message.chat.id;
-
+		//chat_id = message.chat.id;
+/*
 		var url = 'https://api.telegram.org/bot' + token + '/' + "sendmessage?" + "chat_id=" + chat_id + "&" + "text=Бот уже работает круглосуточно и скоро сможет выполнять все свои функции!!!";
 
 		request(url, function(error, response, body) {
 
 			console.log(body);
 
-		});
+		});*/
 
 	}
 
