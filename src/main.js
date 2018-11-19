@@ -9,7 +9,7 @@ const server = http.createServer(function(req, res) {
 	if (req.method == 'POST') {
 
 		var body = '';
-		var context = '';
+		var message = '';
 
 		req.on('data', function (data) {
 
