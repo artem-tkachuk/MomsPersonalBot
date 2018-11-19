@@ -9,7 +9,6 @@ const server = http.createServer(function(req, res) {
 	if (req.method == 'POST') {
 
 		var body = '';
-		var message = '';
 
 		req.on('data', function (data) {
 
@@ -24,22 +23,22 @@ const server = http.createServer(function(req, res) {
 
 		req.on('end', function() {
 
-			message = JSON.parse(body);
+			body = JSON.parse(body);
 
-			console.log(message);
+			console.log(body);
 
 		});
 
 
-		//chat_id = message.chat.id;
-/*
+		chat_id = body.message.chat.id;
+
 		var url = 'https://api.telegram.org/bot' + token + '/' + "sendmessage?" + "chat_id=" + chat_id + "&" + "text=Бот уже работает круглосуточно и скоро сможет выполнять все свои функции!!!";
 
 		request(url, function(error, response, body) {
 
 			console.log(body);
 
-		});*/
+		});
 
 	}
 
