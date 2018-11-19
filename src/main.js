@@ -27,12 +27,27 @@ const server = http.createServer(function(req, res) {
 
 			var chat_id = body.message.chat.id;
 
-			var url = 'https://api.telegram.org/bot' + token + '/' + "sendmessage?" + "chat_id=" + chat_id + "&" + "text=Бот уже работает круглосуточно и скоро сможет выполнять все свои функции!!!";
+			var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage?" + "chat_id=" + chat_id + "&" + "text=Бот уже работает круглосуточно и скоро сможет выполнять все свои функции!!!";
 
-			request(url, function(error, response, body) {
+			let options = {
 
-				console.log(body);
+				url: URL,
 
+    				method: 'GET',
+
+    				headers: {
+
+        				"encoding": "text/html;charset='charset=utf-8'"
+
+    				}
+
+			};
+
+			request(options, function(err, res, body) {
+
+				let json_response = JSON.parse(body);
+
+    				console.log(json_response);
 			});
 
 		});
