@@ -3,7 +3,14 @@
 const http = require('http');
 const request = require('request');
 
+const MILLISECONDS_IN_DAY = 86400000;
+
 var curr_update = 0;
+
+var result = '';
+
+//adds fancy keyboard
+reply_mark = '{"keyboard":[["Bitcoin в $ и ₽","Время в Сакраменто"],["€ к ₽","$ к ₽"],["Погода Сакраменто","Погода Реутов"], ["Дни до приезда"]]}';
 
 const token = '743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU';
 
@@ -35,7 +42,21 @@ const server = http.createServer(function(req, res) {
 
                 curr_update = update_id;
 
+
+
                 var chat = body.message.chat.id;
+
+                var original_text = body.message.text;
+
+                if (("Дни до приезда" in original_text) || ("/arrival" in original_text)) {
+
+                    const arrival_date = new Date(2018, 11, 26);
+
+                    var today_date = new Date();
+
+                    result = Math.floor((arrival_date - today_date) / MILLISECONDS_IN_DAY);
+
+                }
 
                 var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage";
 
@@ -47,7 +68,9 @@ const server = http.createServer(function(req, res) {
 
                         chat_id: chat,
 
-                        text: "Бот уже работает круглосуточно, но пока ничего не умеет! Скоро он исправится"
+                        text: result,
+
+                        reply_markup: reply_mark
 
                     }
 
