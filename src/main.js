@@ -1,4 +1,5 @@
 #!/usr/bin/env nodejs
+
 const http = require('http');
 const request = require('request');
 
@@ -8,64 +9,64 @@ const token = '743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU';
 
 const server = http.createServer(function(req, res) {
 
-        if (req.method == 'POST') {
+    if (req.method == 'POST') {
 
-                var body = '';
+        var body = '';
 
-                req.on('data', function (data) {
+        req.on('data', function(data) {
 
-                        body += data
+            body += data
 
-                        if (body.length > 1e6) {
+            if (body.length > 1e6) {
 
-                                req.connection.destroy();
+                req.connection.destroy();
 
-                        }
-                });
+            }
+        });
 
-                req.on('end', function() {
+        req.on('end', function() {
 
-                        body = JSON.parse(body);
-                        console.log(body);
+            body = JSON.parse(body);
+            console.log(body);
 
-                        update_id = body.update_id;
+            update_id = body.update_id;
 
-                        if (update_id != curr_update)   {
+            if (update_id != curr_update) {
 
-                              curr_update = update_id;
+                curr_update = update_id;
 
-                              var chat = body.message.chat.id;
+                var chat = body.message.chat.id;
 
-                              var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage";
+                var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage";
 
-                              let options = {
+                let options = {
 
-                                    url: URL,
+                    url: URL,
 
-                                    form: {
+                    form: {
 
-                                          chat_id: chat,
+                        chat_id: chat,
 
-                                          text: "Бот уже работает круглосуточно, но пока ничего не умеет! Скоро он исправится"
+                        text: "Бот уже работает круглосуточно, но пока ничего не умеет! Скоро он исправится"
 
-                                    }
+                    }
 
-                              };
+                };
 
-                              request.post(options, function(err, res, body) {
+                request.post(options, function(err, res, body) {
 
-                                    let json_response = JSON.parse(body);
+                    let json_response = JSON.parse(body);
 
-                                    console.log(json_response);
-
-                              });
-                        }
+                    console.log(json_response);
 
                 });
+            }
 
-      }
+        });
 
-	res.end("Bot welcomes you!");
+    }
+
+    res.end("Bot welcomes you!");
 
 });
 
