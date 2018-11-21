@@ -2,11 +2,11 @@
 const http = require('http');
 const request = require('request');
 
+var curr_update = 0;
+
 const token = '743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU';
 
 const server = http.createServer(function(req, res) {
-
-        var curr_update = 0;
 
         if (req.method == 'POST') {
 
@@ -64,6 +64,8 @@ const server = http.createServer(function(req, res) {
                 });
 
       }
+
+	res.end("Bot welcomes you!");
 
 });
 
