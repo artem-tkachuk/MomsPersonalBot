@@ -48,7 +48,7 @@ const server = http.createServer(function(req, res) {
 
                 var original_text = body.message.text;
 
-                if (("Дни до приезда" in original_text) || ("/arrival" in original_text)) {
+                if (("Дни до приезда" == original_text) || ("/arrival" == original_text)) {
 
                     const arrival_date = new Date(2018, 11, 26);
 
@@ -56,7 +56,11 @@ const server = http.createServer(function(req, res) {
 
                     result = Math.floor((arrival_date - today_date) / MILLISECONDS_IN_DAY);
 
-                }
+                } else {
+
+		result = "Бот пока что больше ничего не умеет, но я уже активно работаю над созданием его функционала!\nP.S. Спасибо команде тестирования за помощь!";
+
+		}
 
                 var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage";
 
