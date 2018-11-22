@@ -1,20 +1,25 @@
 #!/usr/bin/env nodejs
 
-const http = require('http');
-const request = require('request');
+//Packages
+var http = require('http');
+var request = require('request');
 
-const MILLISECONDS_IN_DAY = 86400000;
+
+//Modules
+var start = require('./start.js');
+var btc = require('./btc.js');
+var timecal = require('./timecal.js');
+var eur = require('./eur.js');
+var usd = require('./usd.js');
+var weather = require('./weather.js');
+var timer = require('./timer.js');
+var otherreq = require('./otherreq.js');
+
+
 
 var curr_update = 0;
 
-var result = '';
-
-//adds fancy keyboard
-reply_mark = '{"keyboard":[["Bitcoin в $ и ₽","Время в Сакраменто"],["€ к ₽","$ к ₽"],["Погода Сакраменто","Погода Реутов"], ["Дни до приезда"]]}';
-
-const token = '743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU';
-
-const server = http.createServer(function(req, res) {
+var server = http.createServer(function(req, res) {
 
     if (req.method == 'POST') {
 
@@ -22,7 +27,7 @@ const server = http.createServer(function(req, res) {
 
         req.on('data', function(data) {
 
-            body += data
+            body += data;
 
             if (body.length > 1e6) {
 
@@ -34,7 +39,8 @@ const server = http.createServer(function(req, res) {
         req.on('end', function() {
 
             body = JSON.parse(body);
-            console.log(body);
+
+            //console.log(body) ==>  mongoDB
 
             update_id = body.update_id;
 
@@ -42,53 +48,48 @@ const server = http.createServer(function(req, res) {
 
                 curr_update = update_id;
 
-
-
-                var chat = body.message.chat.id;
+                var chat_id = body.message.chat.id;
 
                 var original_text = body.message.text;
 
-                if (("Дни до приезда" == original_text) || ("/arrival" == original_text)) {
+                if ("/start" == original_text) {
 
-                    const arrival_date = new Date(2018, 11, 26);
+                    start.get_start(chat_id);
 
-                    var today_date = new Date();
+                } else if (("Bitcoin в $ и ₽" == original_text) || ("/btc" == original_text)) {
 
-                    result = Math.floor((arrival_date - today_date) / MILLISECONDS_IN_DAY);
+                    btc.get_btc(chat_id);
+
+                } else if (("Время в Калифорнии" == original_text) || ("/timecal" == original_text)) {
+
+                    timecal.get_timecal(chat_id);
+
+                } else if (("Дни до приезда" == original_text) || ("/arrival" == original_text)) {
+
+                    timer.get_timer(chat_id);
+
+                } else if (("€ к ₽" == original_text) || ("/eur" == original_text)) {
+
+                    eur.get_eur(chat_id);
+
+                } else if (("$ к ₽" == original_text) || ("/usd" == original_text)) {
+
+                    usd.get_usd(chat_id);
+
+                } else if (("Погода Сакраменто" == original_text) || ("/weathersac" == original_text)) {
+
+                    weather.get_weather(chat_id, "Sacramento");
+
+                } else if (("Погода Реутов" == original_text) || ("/weatherreu" == original_text)) {
+
+                    weather.get_weather(chat_id, "Reutov");
 
                 } else {
 
-		            result = "Бот пока что больше ничего не умеет, но я уже активно работаю над созданием его функционала!\nP.S. Спасибо команде тестирования за помощь!";
+                    otherreq.get_otherreq(chat_id);
 
-		        }
-
-                var URL = 'https://api.telegram.org/bot' + token + '/' + "sendmessage";
-
-                let options = {
-
-                    url: URL,
-
-                    form: {
-
-                        chat_id: chat,
-
-                        text: result,
-
-                        reply_markup: reply_mark
-
-                    }
-
-                };
-
-                request.post(options, function(err, res, body) {
-
-                    let json_response = JSON.parse(body);
-
-                    console.log(json_response);
-
-                });
+                }
             }
-
         });
 
     }
