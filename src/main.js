@@ -6,15 +6,15 @@ var request = require('request');
 
 
 //Modules
-var start = require('modules/start.js');
-var btc = require('modules/btc.js');
-var timecal = require('modules/timecal.js');
-var eur = require('modules/eur.js');
-var usd = require('modules/usd.js');
-var weather = require('modules/weather.js');
-var timer = require('modules/timer.js');
-var otherreq = require('modules/otherreq.js');
-var db = require('modules/db.js');
+var start = require('./modules/start.js');
+var btc = require('./modules/btc.js');
+var timecal = require('./modules/timecal.js');
+var eur = require('./modules/eur.js');
+var usd = require('./modules/usd.js');
+var weather = require('./modules/weather.js');
+var timer = require('./modules/timer.js');
+var otherreq = require('./modules/otherreq.js');
+var db = require('./modules/db.js');
 
 
 

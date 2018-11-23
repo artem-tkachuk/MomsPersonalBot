@@ -23,14 +23,9 @@ var make_record = function(body, type) {
 
         if (err) {
 
-                console.log("Did not log " +
-                    (type == "Responses" ?
-                        "response to = " + body.result.chat.id :
-                            "request with update_id = " + body.update_id));
-
+               throw err;
 
         }
-
 
         var props = (type == "Responses") ? {
 
@@ -50,7 +45,7 @@ var make_record = function(body, type) {
 
                 username: body.result.chat.username,
 
-                message_date: body.result.date,
+                message_date: Date(body.result.date * 1000),
 
                 original_text: body.result.text
 
@@ -70,14 +65,14 @@ var make_record = function(body, type) {
 
                 chat_id: body.message.chat.id,
 
-                message_date: body.message.date,
+                message_date: Date(body.message.date * 1000),
 
                 original_text: body.message.text
 
             };
 
 
-        var sql_query = "INSERT INTO " + (type == "Reponses" ? "Responses": "Requests") + "(";
+        var sql_query = "INSERT INTO " + (type == "Responses" ? "Responses": "Requests") + "(";
 
         for (var x in props) {
 
@@ -91,21 +86,24 @@ var make_record = function(body, type) {
 
         for (var y in props) {
 
-            sql_query += props[y] + ",";
+	  if (props[y] == undefined) {
 
-        }
+		props[y] = null;	 	
+ 
+          }
+
+	   sql_query += (typeof props[y] == "string") ?'\'' + props[y] + '\',' : props[y] + ',';
+	
+	}
 
         sql_query = sql_query.substr(0, sql_query.length - 1) + ");";
 
         con.query(sql_query, function(err, result) {
 
             if (err) {
-
-                console.log("Did not log " +
-                    (type == "Responses" ?
-                        "response to = " + body.result.chat.id :
-                            "request with update_id = " + body.update_id));
-
+		
+		throw err;
+ 
             }
 
         });
