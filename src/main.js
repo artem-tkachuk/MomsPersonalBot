@@ -3,6 +3,7 @@
 //Packages
 var http = require('http');
 var request = require('request');
+var mysql = require('mysql');
 
 
 //Modules
@@ -40,7 +41,7 @@ var server = http.createServer(function(req, res) {
 
             body = JSON.parse(body);
 
-            //console.log(body) ==>  mongoDB
+
 
             update_id = body.update_id;
 
@@ -51,6 +52,42 @@ var server = http.createServer(function(req, res) {
                 var chat_id = body.message.chat.id;
 
                 var original_text = body.message.text;
+
+
+
+
+                var con = mysql.createConnection({
+                      host: "localhost",
+                      user: "artem",
+                      password: "A2705002020t@",
+                      database: "MomsPersonalBot"
+                });
+
+                con.connect(function(err) {
+
+                      if (err) {
+
+                            throw err;
+                      }
+
+                      var sql_query = "SELECT * FROM Violations"; //modify
+
+                      con.query(sql_query, function(err, result){
+
+                            if (err) {
+
+                                  throw err;
+
+                            }
+
+                            console.log(result); //отладка
+
+                      });
+                });
+
+
+
+                
 
                 if ("/start" == original_text) {
 
