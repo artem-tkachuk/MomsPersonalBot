@@ -10,9 +10,9 @@ var make_record = function(body, type) {
 
         host: "localhost",
 
-        user: "artem", //change
+        user: user,
 
-        password: "A2705002020t@", //change
+        password: password,
 
         database: "MomsPersonalBot"
 
