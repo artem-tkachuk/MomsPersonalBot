@@ -3,22 +3,22 @@
 //Packages
 var http = require('http');
 var request = require('request');
-var mysql = require('mysql');
 
 
 //Modules
-var start = require('./start.js');
-var btc = require('./btc.js');
-var timecal = require('./timecal.js');
-var eur = require('./eur.js');
-var usd = require('./usd.js');
-var weather = require('./weather.js');
-var timer = require('./timer.js');
-var otherreq = require('./otherreq.js');
+var start = require('modules/start.js');
+var btc = require('modules/btc.js');
+var timecal = require('modules/timecal.js');
+var eur = require('modules/eur.js');
+var usd = require('modules/usd.js');
+var weather = require('modules/weather.js');
+var timer = require('modules/timer.js');
+var otherreq = require('modules/otherreq.js');
+var db = require('modules/db.js');
 
 
 
-var curr_update = 0;
+var curr_update = 0;    //Initial value for server startup
 
 var server = http.createServer(function(req, res) {
 
@@ -41,9 +41,9 @@ var server = http.createServer(function(req, res) {
 
             body = JSON.parse(body);
 
+            var update_id = body.update_id;
 
 
-            update_id = body.update_id;
 
             if (update_id != curr_update) {
 
@@ -53,41 +53,7 @@ var server = http.createServer(function(req, res) {
 
                 var original_text = body.message.text;
 
-
-
-
-                var con = mysql.createConnection({
-                      host: "localhost",
-                      user: "artem",
-                      password: "A2705002020t@",
-                      database: "MomsPersonalBot"
-                });
-
-                con.connect(function(err) {
-
-                      if (err) {
-
-                            throw err;
-                      }
-
-                      var sql_query = "SELECT * FROM Violations"; //modify
-
-                      con.query(sql_query, function(err, result){
-
-                            if (err) {
-
-                                  throw err;
-
-                            }
-
-                            console.log(result); //отладка
-
-                      });
-                });
-
-
-
-                
+                db.make_record(body, "Requests");                   //log all incoming requests
 
                 if ("/start" == original_text) {
 
@@ -126,7 +92,9 @@ var server = http.createServer(function(req, res) {
                     otherreq.get_otherreq(chat_id);
 
                 }
+
             }
+
         });
 
     }

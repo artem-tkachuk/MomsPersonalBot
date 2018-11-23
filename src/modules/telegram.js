@@ -1,7 +1,8 @@
 var request = require('request');
+var db = require('./db.js');
 
-
-var token = require('../../keys/token.js').token; //bot's unique identifier
+var token = require('../../../keys/token.js').token; //bot's unique identifier
+var author_chat_id = require('../../../keys/author_chat_id.js').author_chat_id; //author's chat_id
 
 
 send_message = function(chat_id, result) {
@@ -47,7 +48,13 @@ send_message = function(chat_id, result) {
 
         if (err) {
 
-            console.log(err);// ==> mongoDB
+            db.make_record(body, "Responses");
+
+            send_message(author_chat_id, "Что-то не так с MomsPersonalBot!");
+
+            send_message(chat_id, "Возникли какие-то проблемы! Создатель бота уже получил сообщение!");
+
+
 
         }
 

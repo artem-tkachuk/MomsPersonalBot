@@ -3,11 +3,10 @@ var request = require('request');
 var telegram = require('./telegram.js');
 
 
-var KEY = require('../../keys/ACCESS_KEY_CURRENCY.js').ACCESS_KEY;  //API access key
+var KEY = require('../../../keys/ACCESS_KEY_CURRENCY.js').ACCESS_KEY;  //API access key
 
 
-
-var get_eur = function(chat_id) {
+var get_usd = function(chat_id) {
 
     var options = {
 
@@ -17,7 +16,7 @@ var get_eur = function(chat_id) {
 
             access_key: KEY,
 
-            symbols: "RUB"
+            symbols: "RUB,USD"
 
         }
 
@@ -27,7 +26,7 @@ var get_eur = function(chat_id) {
 
         body = JSON.parse(body);
 
-        var result = "1 € = " + format_number(body.rates.RUB) + "₽";
+        var result = "$1 = " + format_number((body.rates.RUB / body.rates.USD)) + "₽";
 
         telegram.send_message(chat_id, result);
 
@@ -40,4 +39,4 @@ function format_number(number) {
 
 }
 
-module.exports.get_eur = get_eur;
+module.exports.get_usd = get_usd;

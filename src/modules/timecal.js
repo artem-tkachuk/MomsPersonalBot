@@ -2,7 +2,7 @@ var request = require('request');
 
 var telegram = require('./telegram.js');
 
-var KEY = require('../../keys/timecal_api_key.js').API_KEY;  //API access key
+var KEY = require('../../../keys/timecal_api_key.js').API_KEY;  //API access key
 
 
 var get_timecal = function(chat_id) {

@@ -2,7 +2,7 @@ var request = require('request');
 
 var telegram = require('./telegram.js');
 
-var APPID= require('../../keys/weather.js').APPID;  //API access key
+var APPID= require('../../../keys/weather.js').APPID;  //API access key
 
 
 var get_weather = function(chat_id, city) {
