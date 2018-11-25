@@ -1,3 +1,7 @@
-Написан на JavaScript,
+This is a simple chatbot for Telegram Messenger for my mother to use while I'm in the U.S. :) 
 
-Спланирован в Trello
+This my first project on GitLab!
+
+I used Node.js, JavaScript, Trello
+
+
