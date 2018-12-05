@@ -67,7 +67,7 @@ var server = http.createServer(function(req, res) {
 
                     timecal.get_timecal(chat_id);
 
-                } else if (("Дни до приезда" == original_text) || ("/arrival" == original_text)) {
+                } else if (("Время до приезда" == original_text) || ("/arrival" == original_text)) {
 
                     timer.get_timer(chat_id);
 

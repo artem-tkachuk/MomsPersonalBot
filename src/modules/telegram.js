@@ -24,7 +24,7 @@ send_message = function(chat_id, result) {
                 "Погода Реутов"
             ],
             [
-                "Дни до приезда"
+                "Время до приезда"
             ]
         ]
     });     //adds reply keyboard with buttons representing current functions

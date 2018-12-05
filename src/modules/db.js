@@ -88,12 +88,12 @@ var make_record = function(body, type) {
 
 	  if (props[y] == undefined) {
 
-		props[y] = null;	 	
- 
+		props[y] = null;
+
           }
 
 	   sql_query += (typeof props[y] == "string") ?'\'' + props[y] + '\',' : props[y] + ',';
-	
+
 	}
 
         sql_query = sql_query.substr(0, sql_query.length - 1) + ");";
@@ -101,9 +101,9 @@ var make_record = function(body, type) {
         con.query(sql_query, function(err, result) {
 
             if (err) {
-		
-		throw err;
- 
+
+		        throw err;
+
             }
 
         });

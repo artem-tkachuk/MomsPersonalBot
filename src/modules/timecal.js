@@ -15,9 +15,9 @@ var get_timecal = function(chat_id) {
 
             key: KEY,
 
-            zone: "PDT",
-
             by: "zone",
+
+            zone: "America/Los_Angeles",
 
             fields: "formatted",
 
