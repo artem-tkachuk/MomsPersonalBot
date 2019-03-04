@@ -13,6 +13,7 @@ var eur = require('./modules/eur.js');
 var usd = require('./modules/usd.js');
 var weather = require('./modules/weather.js');
 var timer = require('./modules/timer.js');
+var tj = require('./modules/tj.js');
 var otherreq = require('./modules/otherreq.js');
 var db = require('./modules/db.js');
 var token = require('../../keys/token.js');
@@ -87,6 +88,10 @@ var server = http.createServer(function(req, res) {
                 } else if (("Погода Реутов" == original_text) || ("/weatherreu" == original_text)) {
 
                     weather.get_weather(chat_id, "Reutov");
+
+                } else if (("TJ" == original_text) || ("/tj" == original_text)) {
+
+                    tj.tj(chat_id);
 
                 } else {
 
