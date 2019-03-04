@@ -15,6 +15,7 @@ var weather = require('./modules/weather.js');
 var timer = require('./modules/timer.js');
 var otherreq = require('./modules/otherreq.js');
 var db = require('./modules/db.js');
+var token = require('../../keys/token.js')
 
 
 
@@ -22,7 +23,7 @@ var curr_update = 0;    //Initial value for server startup
 
 var server = http.createServer(function(req, res) {
 
-    if (req.method == 'POST') {
+    if (req.method == 'POST' && req.pathname == token.token) {
 
         var body = '';
 
