@@ -46,17 +46,16 @@ send_message = function(chat_id, result) {
 
     request.post(options, function(err, res, body) {
 
-	body = JSON.parse(body);
+	    body = JSON.parse(body);
 
-	if (body.ok == false) {
+	    if (body.ok == false) {
 
-            send_message(author_chat_id, "Что-то не так с MomsPersonalBot!");
-
-            send_message(chat_id, "Возникли какие-то проблемы! Создатель бота уже получил сообщение!");
+            send_message(author_chat_id, "SECURITY\n\nЧто-то не так с MomsPersonalBot!\nПользователь с char_id = " + chat_id.toString()); //let me know
 
         } else {
-		db.make_record(body, "Responses");
-	}
+
+		    db.make_record(body, "Responses");
+	    }
 
     });
 
