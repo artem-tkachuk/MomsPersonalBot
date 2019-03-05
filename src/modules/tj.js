@@ -1,35 +1,44 @@
 var request = require('request');
-
 var telegram = require('./telegram.js');
+var tjtoken = require('../../../keys/tjtoken.js').tjtoken;
+
 
 var tj = function(chat_id) {
 
     var options = {
 
-        path: '/1.1/statuses/user_timeline.json?count=1&screen_name=tjournal HTTPS/1.1',
+        url: 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=tjournal&&count=5',
 
-        host: 'api.twitter.com',
+        headers: {
 
-        authorization: 'Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0',
+            'User-Agent': 'MomsPersonalName',
 
+            'authorization': tjtoken,
+
+            'Accept-Encoding': 'utf-16'
+        }
     }
-
 
     request.get(options, function(error, response, body) {
 
-       body = JSON.parse(body);
+        body = JSON.parse(body);
 
-       //parsing the text
+        var message = '5 последних новостей с TJ:\n\n';
 
-       var message = "There will be parsed text of message";
+        //parsing the response and composing the query
 
-       telegram.send_message(48018875, body);
+        body.forEach(function(tweet) {
 
-       //telegram.send_message(chat_id, message);
+            message += tweet.text + '\n\n';
+
+        });
+
+        telegram.send_message(chat_id, message);
 
     });
 
 }
+
 
 
 module.exports.tj = tj;
