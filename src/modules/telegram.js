@@ -41,6 +41,7 @@ send_message = function(chat_id, result) {
             text: result,
 
             reply_markup: reply_keyboard
+
         }
 
     };
