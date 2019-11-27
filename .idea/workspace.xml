@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.deployment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/azure.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/routes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -571,7 +563,7 @@
       <workItem from="1574839899468" duration="4001000" />
       <workItem from="1574844294798" duration="2054000" />
       <workItem from="1574847232741" duration="368000" />
-      <workItem from="1574848033475" duration="236000" />
+      <workItem from="1574848033475" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -689,10 +681,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574846687100">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574848667404">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574846687100" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574848667404" />
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574848035546">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
