@@ -28,21 +28,21 @@ const handleRoutes = (req: Request, res: Response) => {
         switch(original_text) {
             case "/start":
                 getStart(chat_id); break;
-            case "Bitcoin в $ и ₽" || "/btc":
+            case "Bitcoin в $ и ₽": case "/btc":
                 getBtc(chat_id); break;
-            case "Время в Калифорнии" || "/timecal":
+            case "Время в Калифорнии": case "/timecal":
                 getTimeCal(chat_id); break;
-            case "Время до приезда" || "/arrival":
+            case "Время до приезда": case "/arrival":
                 getTimer(chat_id); break;
-            case "€ к ₽" || "/eur":
+            case "€ к ₽": case "/eur":
                 getEur(chat_id); break;
-            case "$ к ₽" || "/usd":
+            case "$ к ₽": case "/usd":
                 getUsd(chat_id); break;
-            case "Погода Сакраменто" || "/weathersac":
+            case "Погода Сакраменто": case "/weathersac":
                 getWeather(chat_id, "Sacramento"); break;
-            case "Погода Реутов" || "/weatherreu":
+            case "Погода Реутов": case "/weatherreu":
                 getWeather(chat_id, "Reutov"); break;
-            case "TJ" || "/tj":
+            case "TJ": case "/tj":
                 tj(chat_id); break;
             default:
                 otherReq(chat_id);

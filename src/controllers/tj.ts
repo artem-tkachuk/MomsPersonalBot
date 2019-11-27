@@ -1,6 +1,6 @@
 import request from 'request';
 import send_message from '../telegram/telegram';
-const tjtoken = process.env.tjtoken;
+const tjtoken = `Bearer ${process.env.tjtoken}`;
 
 const tj = (chat_id: string) => {
     const options = {
