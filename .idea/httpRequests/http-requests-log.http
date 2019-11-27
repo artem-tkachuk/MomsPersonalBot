@@ -1,0 +1,476 @@
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/tj"}}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/tj"}}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/tj"}}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/tj"}}
+
+<> 2019-03-04T045105.200.txt
+
+###
+
+POST https://www.uttpic.tech
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-03-04T044951.405.html
+
+###
+
+POST https://www.uttpic.tech
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-03-04T044944.405.html
+
+###
+
+POST https://www.uttpic.tech
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-03-04T034834.405.html
+
+###
+
+POST https://www.uttpic.tech
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/start"}}
+
+<> 2019-03-04T034830.405.html
+
+###
+
+POST https://www.uttpic.tech
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/start"}}
+
+<> 2019-03-04T034825.405.html
+
+###
+
+POST https://www.uttpic.tech/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/start"}}
+
+<> 2019-03-04T034807.200.txt
+
+###
+
+GET http://api.twitter.com/1.1/statuses/user_timeline.json?count=1&screen_name=tjournal HTTPS/1.1
+Host: api.twitter.com
+User-Agent: MomsPersonalName
+Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0
+Accept-Encoding: gzip
+
+<> 2019-03-04T023250.403.json
+
+###
+
+GET http://api.twitter.com/1.1/statuses/user_timeline.json?count=1&screen_name=tjournal HTTPS/1.1
+Host: api.twitter.com
+User-Agent: MomsPersonalName
+Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0
+Accept-Encoding: gzip
+
+<> 2019-03-04T022606.403.json
+
+###
+
+GET http://api.twitter.com/1.1/statuses/user_timeline.json?count=1&screen_name=tjournal HTTPS/1.1
+Host: api.twitter.com
+User-Agent: MomsPersonalBot
+Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0
+Accept-Encoding: gzip
+
+<> 2019-03-04T022558.403.json
+
+###
+
+GET http://api.twitter.com/1.1/statuses/user_timeline.json?count=1&screen_name=tjournal HTTPS/1.1
+Host: api.twitter.com
+User-Agent: My Twitter App v1.0.23
+Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0
+Accept-Encoding: gzip
+
+<> 2019-03-04T022520.403.json
+
+###
+
+GET http://api.twitter.com/1.1/statuses/user_timeline.json?count=1&screen_name=tjournal HTTPS/1.1
+Host: api.twitter.com
+User-Agent: My Twitter App v1.0.23
+Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0
+Accept-Encoding: gzip
+
+<> 2019-03-04T022248.403.json
+
+###
+
+GET http://api.twitter.com/1.1/statuses/user_timeline.json?count=1&screen_name=tjournal
+Host: api.twitter.com
+User-Agent: My Twitter App v1.0.23
+Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0
+Accept-Encoding: gzip
+
+<> 2019-03-04T022143.403.json
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/start"}}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/start"}}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/start"}}
+
+<> 2019-03-04T111837.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1001", "message": {"chat": {"id": "4801887"}, "text": "/start"}}
+
+<> 2019-03-04T111808.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111744.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111743.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111737.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111445.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111232.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111219.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111151.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111101.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T111053.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T110952.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T110951.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat": {"id": "48018875"}, "text": "/start"}}
+
+<> 2019-03-04T110917.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat_id": "48018875", "original_text": "/start"}}
+
+<> 2019-03-04T110830.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat_id": "48018875", "original_text": "/start"}}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "message": {"chat_id": "48018875", "original_text": "/start"}}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110753.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110732.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110618.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110509.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110357.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110356.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110323-1.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110323.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110316.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110238.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}
+
+<> 2019-03-04T110222.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+'{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}'
+
+<> 2019-03-04T110202.200.txt
+
+###
+
+POST http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU
+Accept: */*
+Cache-Control: no-cache
+
+'{"update_id": "1000", "chat_id": "48018875", "original_text": "/start"}'
+
+<> 2019-03-04T110201.200.txt
+
+###
+
