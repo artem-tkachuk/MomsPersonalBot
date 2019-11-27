@@ -4,15 +4,15 @@ import bodyParser from 'body-parser';
 import routes from './routes/routes';
 import get404 from "./controllers/404";
 
-const App = express();
+const Index = express();
 
-App.use(bodyParser.urlencoded({extended: false}));
-App.use(bodyParser.json());
+Index.use(bodyParser.urlencoded({extended: false}));
+Index.use(bodyParser.json());
 
-App.use(routes);
-App.use(get404);
+Index.use(routes);
+Index.use(get404);
 
-export default App;
+export default Index;
 
 //TODO rename tokens to capital letters
 //TODO deploy to Azure

@@ -2,11 +2,11 @@
   "name": "momspersonalbot",
   "version": "2.3.1",
   "description": "A simple chatbot in Telegram Messenger for my mom",
-  "main": "./build/index.js",
+  "main": "./build/app.js",
   "scripts": {
     "test": "echo hello, world!",
     "tsc": "tsc",
-    "run": "node ./build/index.js"
+    "run": "node ./build/app.js"
   },
   "repository": {
     "type": "git",
