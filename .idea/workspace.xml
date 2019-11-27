@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/azure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/azure.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/routes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/btc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/eur.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/otherreq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/send_message_to_specific_user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/telegram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/timecal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/timer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/tj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/usd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/legacy/modules/weather.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -583,7 +565,7 @@
       <workItem from="1574839899468" duration="4001000" />
       <workItem from="1574844294798" duration="2054000" />
       <workItem from="1574847232741" duration="368000" />
-      <workItem from="1574848033475" duration="1600000" />
+      <workItem from="1574848033475" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -683,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574850080334</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="deployment does not work. Will fix tomorrow.">
+      <created>1574850340244</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574850340244</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -734,38 +723,38 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574850307134" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574850080215">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574850340100">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850080215" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850340100" />
     <state x="33" y="113" key="DiffContextDialog" timestamp="1574845005397">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574850295743">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574850569475">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574850295743" />
-    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574850295743">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569475" />
+    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574850569473">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574850295743" />
-    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574850295743">
+    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569473" />
+    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574850569472">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574850295743" />
-    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574850295743">
+    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569472" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574850569474">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574850295743" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569474" />
     <state x="341" y="185" key="SettingsEditor" timestamp="1574847343009">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574850082271">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574850342746">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850082271" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850342746" />
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574848035546">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

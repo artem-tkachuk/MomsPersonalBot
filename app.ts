@@ -1,7 +1,7 @@
-import Index from './src/index';
+import app from './src/index';
 
 const port = process.env.PORT || 1337;
 
-Index.listen(port);
+app.listen(port);
 
 console.log(`Bot is running on port ${port}`);
