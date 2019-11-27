@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MomsPersonalBot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/artemtkachuk1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/btc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/eur.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/otherReq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/timeCal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/tj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/usd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/controllers/weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/database/mongo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/routes/handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/routes/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/telegram/telegram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/util/formatNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/404.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/azure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/azure.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/btc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/eur.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/otherreq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/send_message_to_specific_user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/telegram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/timecal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/timer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/tj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/usd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -589,7 +550,7 @@
       <workItem from="1554234233414" duration="289000" />
       <workItem from="1554311056119" duration="382000" />
       <workItem from="1568412203113" duration="921000" />
-      <workItem from="1574839899468" duration="3579000" />
+      <workItem from="1574839899468" duration="3835000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
