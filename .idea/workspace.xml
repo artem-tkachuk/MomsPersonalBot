@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.default" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/azure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/azure.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/artemtkachuk1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/artemtkachuk1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/routes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +21,6 @@
         <option value="TypeScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>743</find>
-      <find>db</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -690,7 +674,7 @@
       <workItem from="1574839899468" duration="4001000" />
       <workItem from="1574844294798" duration="2054000" />
       <workItem from="1574847232741" duration="368000" />
-      <workItem from="1574848033475" duration="3866000" />
+      <workItem from="1574848033475" duration="4018000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -818,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574851473513</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="probably fixed env variables">
+      <created>1574852955119</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574852955119</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -860,7 +851,8 @@
     <MESSAGE value="deployment does not work. Will fix tomorrow." />
     <MESSAGE value="DONE!!!!" />
     <MESSAGE value="Testing config file, because the env variables are not visible" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing config file, because the env variables are not visible" />
+    <MESSAGE value="probably fixed env variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="probably fixed env variables" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574852676204">
@@ -879,10 +871,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#index.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574852669317" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574851473412">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574852954964">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574851473412" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574852954964" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -959,10 +951,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574851476101">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574852957751">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574851476101" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574852957751" />
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574848035546">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
