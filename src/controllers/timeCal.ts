@@ -2,7 +2,6 @@ import request from "request";
 import send_message from "../telegram/telegram";
 
 const KEY = process.env.TIMECAL_API_KEY;  //API access key
-console.log(KEY);
 
 
 const getTimeCal = (chat_id: string) => {

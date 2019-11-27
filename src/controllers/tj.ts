@@ -4,9 +4,6 @@ const tjtoken = process.env.tjtoken;
 
 //TODO debug
 
-console.log(tjtoken);
-
-
 const tj = (chat_id: string) => {
     const options = {
         url: 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=tjournal&&count=5',

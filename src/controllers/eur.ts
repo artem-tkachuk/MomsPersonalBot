@@ -4,7 +4,6 @@ import send_message from "../telegram/telegram";
 import formatNumber from "../util/formatNumber";
 
 const KEY = process.env.ACCESS_CURRENCY_KEY; //api access key
-console.log(KEY);
 
 const getEur = (chat_id: string) => {
     const options = {

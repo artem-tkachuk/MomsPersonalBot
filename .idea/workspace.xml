@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="fixed env">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/eur.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/eur.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/timeCal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/timeCal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/timer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/timer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/tj.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/tj.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/usd.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/usd.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/weather.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/weather.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telegram/telegram.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram/telegram.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -613,7 +616,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.rest-api_16#1">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration name="rest-api_14#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_14.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -625,7 +628,7 @@
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/app.js" working-dir="$PROJECT_DIR$">
       <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" url="http://localhost:${PORT}/" />
+        <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       </EXTENSION>
       <method v="2">
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
@@ -678,7 +681,7 @@
       <workItem from="1574844294798" duration="2054000" />
       <workItem from="1574847232741" duration="368000" />
       <workItem from="1574848033475" duration="4032000" />
-      <workItem from="1574853219319" duration="850000" />
+      <workItem from="1574853219319" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -874,6 +877,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixed env" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="530" y="234" key="#app.js" timestamp="1574854203726">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="530" y="234" key="#app.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574854203726" />
     <state x="304" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574852676204">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -902,22 +909,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574853207946">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574854170182">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
-    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574853207946">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574854170182" />
+    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574854170179">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
-    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574853207946">
+    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574854170179" />
+    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574854170178">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
-    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574853207946">
+    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574854170178" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574854170181">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574854170181" />
     <state width="610" height="912" key="GridCell.Tab.1.bottom" timestamp="1574852732397">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -970,14 +977,18 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574853824891">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574854246167">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574853824891" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574854246167" />
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574853219224">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574853219224" />
+    <state x="489" y="282" width="701" height="508" key="find.popup" timestamp="1574854349395">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="489" y="282" width="701" height="508" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1574854349395" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

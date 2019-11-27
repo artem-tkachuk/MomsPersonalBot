@@ -2,8 +2,6 @@ import request from "request";
 import send_message from "../telegram/telegram";
 const APPID= process.env.WEATHER_APPID; //API access key
 
-console.log(APPID);
-
 const getWeather = (chat_id: string, city: string) => {
     const options = {
         url: "http://api.openweathermap.org/data/2.5/weather",

@@ -4,8 +4,6 @@ import send_message from "../telegram/telegram";
 const KEY = process.env.TIMECAL_API_KEY;  //API access key
 const arrival_date = Date.parse("December  18, 2019 21:45:00");  //Next arrival date
 
-console.log(KEY);
-
 const MILLISECONDS_IN_DAY = 86400000;
 
 const getTimer = (chat_id: string) => {
