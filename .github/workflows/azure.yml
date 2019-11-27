@@ -47,3 +47,9 @@ jobs:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        ACCESS_CURRENCY_KEY: ${{env.ACCESS_CURRENCY_KEY}}
+        author_chat_id: ${{ env.author_chat_id }}
+        TIMECAL_API_KEY: ${{ env.TIMECAL_API_KEY }}
+        tjtoken: ${{ env.tjtoken }}
+        token: ${{ env.token }}
+        WEATHER_APPID: ${{ env.APPID }}
