@@ -12,6 +12,7 @@ const tj = (chat_id: string) => {
         }
     };
     request.get(options, (err: any, res: any, body: string) => {
+        console.log(body);
         let message = `5 последних новостей с TJ:\n\n${JSON.parse(body).join('\n\n')}`; //TODO fix, doesn't work
         send_message(chat_id, message);
     });

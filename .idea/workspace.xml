@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/artemtkachuk1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/artemtkachuk1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/tj.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/tj.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/handler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/telegram/telegram.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram/telegram.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -968,7 +969,7 @@
       <workItem from="1574848033475" duration="4032000" />
       <workItem from="1574853219319" duration="1242000" />
       <workItem from="1574854733246" duration="562000" />
-      <workItem from="1574885223830" duration="3830000" />
+      <workItem from="1574885223830" duration="4100000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -1145,7 +1146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574855005382</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fixed some errors">
+      <created>1574892059295</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1574892059295</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1193,9 +1201,14 @@
     <MESSAGE value=".gitattributes  update" />
     <MESSAGE value="last commit for today" />
     <MESSAGE value="Will it deploy?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Will it deploy?" />
+    <MESSAGE value="Fixed some errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some errors" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="201" key="#Deployment" timestamp="1574892321902">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="201" key="#Deployment/0.23.1680.1027@0.23.1680.1027" timestamp="1574892321902" />
     <state x="530" y="234" key="#app.js" timestamp="1574888373484">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -1220,10 +1233,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#index.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574852669317" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574855005223">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574892059092">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574855005223" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574892059092" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -1304,10 +1317,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574855008511">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574892061650">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574855008511" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574892061650" />
     <state width="840" height="513" key="XDebugger.FullValuePopup" timestamp="1574891778978">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
