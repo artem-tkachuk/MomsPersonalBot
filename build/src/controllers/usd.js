@@ -7,6 +7,7 @@ const request_1 = __importDefault(require("request"));
 const formatNumber_1 = __importDefault(require("../util/formatNumber"));
 const telegram_1 = __importDefault(require("../telegram/telegram"));
 const KEY = process.env.ACCESS_CURRENCY_KEY; //API access key
+console.log(KEY);
 const getUsd = (chat_id) => {
     const options = {
         url: "http://data.fixer.io/api/latest",

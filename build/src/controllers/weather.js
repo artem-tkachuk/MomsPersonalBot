@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const request_1 = __importDefault(require("request"));
 const telegram_1 = __importDefault(require("../telegram/telegram"));
 const APPID = process.env.WEATHER_APPID; //API access key
+console.log(APPID);
 const getWeather = (chat_id, city) => {
     const options = {
         url: "http://api.openweathermap.org/data/2.5/weather",

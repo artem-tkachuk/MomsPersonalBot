@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const request_1 = __importDefault(require("request"));
 const telegram_1 = __importDefault(require("../telegram/telegram"));
 const KEY = process.env.TIMECAL_API_KEY; //API access key
+console.log(KEY);
 const getTimeCal = (chat_id) => {
     const options = {
         url: "http://api.timezonedb.com/v2.1/get-time-zone",

@@ -2,6 +2,8 @@ import request from 'request';
 import send_message from '../telegram/telegram';
 const tjtoken = process.env.tjtoken;
 
+console.log(tjtoken);
+
 
 const tj = (chat_id: string) => {
     const options = {

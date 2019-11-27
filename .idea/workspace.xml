@@ -4,7 +4,22 @@
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/controllers/eur.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/controllers/eur.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/controllers/timeCal.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/controllers/timeCal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/controllers/timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/controllers/timer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/controllers/tj.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/controllers/tj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/controllers/usd.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/controllers/usd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/controllers/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/controllers/weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/telegram/telegram.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/telegram/telegram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/eur.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/eur.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/timeCal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/timeCal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/timer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/timer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/tj.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/tj.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/usd.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/usd.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/weather.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/weather.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telegram/telegram.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram/telegram.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +90,37 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://momspersonalbot.azurewebsites.net/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;update_id&quot;: &quot;1001&quot;, &quot;message&quot;: {&quot;chat&quot;: {&quot;id&quot;: &quot;4801887&quot;}, &quot;text&quot;: &quot;/tj&quot;}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="https://momspersonalbot.azurewebsites.net/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
@@ -523,7 +569,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="rest-api_14#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_14.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/index.js" working-dir="$PROJECT_DIR$">
       <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
         <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" start="true" url="http://localhost:3000/" />
@@ -532,6 +581,11 @@
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api_14#1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -565,7 +619,7 @@
       <workItem from="1574839899468" duration="4001000" />
       <workItem from="1574844294798" duration="2054000" />
       <workItem from="1574847232741" duration="368000" />
-      <workItem from="1574848033475" duration="1743000" />
+      <workItem from="1574848033475" duration="2212000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -672,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574850340244</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="DONE!!!!">
+      <created>1574850576691</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574850576691</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +773,8 @@
     <MESSAGE value="Added scripts for auto compiling of typescript on every deployment" />
     <MESSAGE value="commenting most of the code to make a simple get request running" />
     <MESSAGE value="deployment does not work. Will fix tomorrow." />
-    <option name="LAST_COMMIT_MESSAGE" value="deployment does not work. Will fix tomorrow." />
+    <MESSAGE value="DONE!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE!!!!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574846793141">
@@ -723,38 +785,38 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574850307134" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574850340100">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574850576546">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850340100" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850576546" />
     <state x="33" y="113" key="DiffContextDialog" timestamp="1574845005397">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574850569475">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574851068812">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569475" />
-    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574850569473">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574851068812" />
+    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574851068812">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569473" />
-    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574850569472">
+    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574851068812" />
+    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574851068812">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569472" />
-    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574850569474">
+    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574851068812" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574851068812">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574850569474" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574851068812" />
     <state x="341" y="185" key="SettingsEditor" timestamp="1574847343009">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574850342746">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574850579127">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850342746" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574850579127" />
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574848035546">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

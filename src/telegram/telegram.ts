@@ -3,7 +3,9 @@ import request from 'request';
 //import mongoose from 'mongoose';
 
 const token = process.env.token;     //bot's unique identifier
-const author_chat_id = process.env.author_chat_id
+const author_chat_id = process.env.author_chat_id;
+
+console.log(token, author_chat_id);
 
 const send_message = (chat_id: string, result: string) => {
     const URL = 'https://api.telegram.org/bot' + token + '/sendmessage';

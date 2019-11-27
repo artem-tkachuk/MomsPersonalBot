@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const request_1 = __importDefault(require("request"));
 const telegram_1 = __importDefault(require("../telegram/telegram"));
 const tjtoken = process.env.tjtoken;
+console.log(tjtoken);
 const tj = (chat_id) => {
     const options = {
         url: 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=tjournal&&count=5',

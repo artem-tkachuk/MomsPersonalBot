@@ -14,4 +14,4 @@ app.use(routes_1.default);
 app.use(_404_1.default);
 exports.default = app;
 //TODO rename tokens to capital letters
-//TODO deploy to Azure
+//TODO check if typescript actually compiles on each commit
