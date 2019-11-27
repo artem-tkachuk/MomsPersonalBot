@@ -2,7 +2,7 @@
   "name": "momspersonalbot",
   "version": "2.3.1",
   "description": "A simple chatbot in Telegram Messenger for my mom",
-  "main": "build/app.js",
+  "main": "./build/app.js",
   "scripts": {
     "test": "",
     "tsc": "tsc",

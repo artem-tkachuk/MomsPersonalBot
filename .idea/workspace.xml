@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="Added scripts for auto compiling of typescript on every deployment">
+    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -576,7 +577,7 @@
       <workItem from="1554311056119" duration="382000" />
       <workItem from="1568412203113" duration="921000" />
       <workItem from="1574839899468" duration="4001000" />
-      <workItem from="1574844294798" duration="1456000" />
+      <workItem from="1574844294798" duration="1714000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -606,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574845178754</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added scripts for auto compiling of typescript on every deployment">
+      <created>1574846212877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574846212877</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,10 +655,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added scripts for auto compiling of typescript on every deployment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574845974516">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574846212755">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574845974516" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574846212755" />
     <state x="33" y="113" key="DiffContextDialog" timestamp="1574845005397">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -675,10 +683,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574840287036" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574845195342">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574846663479">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574845195342" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574846663479" />
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574839907733">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
