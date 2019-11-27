@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/tj.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/tj.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telegram/telegram.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram/telegram.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -675,7 +677,8 @@
       <workItem from="1574844294798" duration="2054000" />
       <workItem from="1574847232741" duration="368000" />
       <workItem from="1574848033475" duration="4032000" />
-      <workItem from="1574853219319" duration="1204000" />
+      <workItem from="1574853219319" duration="1242000" />
+      <workItem from="1574854733246" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -831,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574854361887</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=".gitattributes  update">
+      <created>1574854469123</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1574854469123</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -876,7 +886,8 @@
     <MESSAGE value="probably fixed env variables" />
     <MESSAGE value="fixed env" />
     <MESSAGE value="Removed console.logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed console.logs" />
+    <MESSAGE value=".gitattributes  update" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitattributes  update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="530" y="234" key="#app.js" timestamp="1574854203726">
@@ -899,10 +910,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#index.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574852669317" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574854361750">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574854468986">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574854361750" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574854468986" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -979,18 +990,18 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574854246167">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574854471250">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574854246167" />
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574853219224">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574854471250" />
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574854733968">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574853219224" />
-    <state x="489" y="282" width="701" height="508" key="find.popup" timestamp="1574854349395">
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574854733968" />
+    <state x="489" y="282" width="701" height="508" key="find.popup" timestamp="1574854745941">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="489" y="282" width="701" height="508" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1574854349395" />
+    <state x="489" y="282" width="701" height="508" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1574854745941" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

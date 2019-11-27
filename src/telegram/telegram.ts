@@ -1,7 +1,5 @@
 import request from 'request';
 
-//import mongoose from 'mongoose';
-
 const token = process.env.token;     //bot's unique identifier
 const author_chat_id = process.env.author_chat_id;
 
@@ -41,7 +39,7 @@ const send_message = (chat_id: string, result: string) => {
 	    if (!body.ok) {
             send_message(author_chat_id!, "SECURITY\n\nЧто-то не так с MomsPersonalBot!\nПользователь с char_id = " + chat_id.toString()); //let me know
         } else {
-		    ;//TODO db.make_record(body, "Responses");
+		    ;//db.make_record(body, "Responses");   //TODO log all responses
 	    }
     });
 };

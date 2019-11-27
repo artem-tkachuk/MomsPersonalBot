@@ -14,6 +14,3 @@ app.use(get404);
 
 export default app;
 
-//TODO rename tokens to capital letters
-//TODO check if typescript actually compiles on each commit
-
