@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 import app from './src/index';
 
 const port = process.env.PORT || 1337;
