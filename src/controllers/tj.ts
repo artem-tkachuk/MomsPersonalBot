@@ -3,7 +3,7 @@ import send_message from '../telegram/telegram';
 const tjtoken = `Bearer ${process.env.tjtoken}`;
 
 const tj = (chat_id: string) => {
-    const options = {
+    const options = {   //TODO something incorrect here?????
         url: 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=tjournal&&count=5',
         headers: {
             'User-Agent': 'MomsPersonalName',
