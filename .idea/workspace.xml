@@ -674,7 +674,8 @@
       <workItem from="1574839899468" duration="4001000" />
       <workItem from="1574844294798" duration="2054000" />
       <workItem from="1574847232741" duration="368000" />
-      <workItem from="1574848033475" duration="4018000" />
+      <workItem from="1574848033475" duration="4032000" />
+      <workItem from="1574853219319" duration="522000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -809,7 +810,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574852955119</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="probably fixed env variables">
+      <created>1574853198133</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574853198133</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -871,10 +879,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#index.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574852669317" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574852954964">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574853198032">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574852954964" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574853198032" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -883,22 +891,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574852816841">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574853207946">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574852816841" />
-    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574852816840">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
+    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574853207946">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574852816840" />
-    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574852816840">
+    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
+    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574853207946">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574852816840" />
-    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574852816841">
+    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574853207946">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574852816841" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574853207946" />
     <state width="610" height="912" key="GridCell.Tab.1.bottom" timestamp="1574852732397">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -951,14 +959,14 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574852957751">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574853199966">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574852957751" />
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574848035546">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574853199966" />
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574853219224">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574848035546" />
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574853219224" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
