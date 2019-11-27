@@ -4,7 +4,7 @@
   "description": "A simple chatbot in Telegram Messenger for my mom",
   "main": "./build/app.js",
   "scripts": {
-    "test": "",
+    "test": "node ./build/index.js",
     "tsc": "tsc",
     "run": "node ./build/index.js"
   },

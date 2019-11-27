@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.deployment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/azure.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +68,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -522,30 +529,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.rest-api_13#1">
-    <configuration name="rest-api_13#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_13.http" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/index.js" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" start="true" url="http://localhost:3000/" />
+      </EXTENSION>
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
     </configuration>
-    <configuration name="rest-api_5#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_5.http">
-      <method v="2" />
-    </configuration>
-    <configuration name="rest-api_6#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_6.http">
-      <method v="2" />
-    </configuration>
-    <configuration name="rest-api_7#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_7.http">
-      <method v="2" />
-    </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/main.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.rest-api_13#1" />
-        <item itemvalue="HTTP Request.rest-api_7#1" />
-        <item itemvalue="HTTP Request.rest-api_6#1" />
-        <item itemvalue="HTTP Request.rest-api_5#1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -577,7 +569,9 @@
       <workItem from="1554311056119" duration="382000" />
       <workItem from="1568412203113" duration="921000" />
       <workItem from="1574839899468" duration="4001000" />
-      <workItem from="1574844294798" duration="1714000" />
+      <workItem from="1574844294798" duration="2054000" />
+      <workItem from="1574847232741" duration="368000" />
+      <workItem from="1574848033475" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -614,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574846212877</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commenting most of the code to make a simple get request running">
+      <created>1574846683371</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574846683371</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,45 +653,50 @@
     <MESSAGE value="Added a simple module to send a message to a specific user from the terminal using process.argv" />
     <MESSAGE value="package.json change to run CI/CD" />
     <MESSAGE value="Added scripts for auto compiling of typescript on every deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scripts for auto compiling of typescript on every deployment" />
+    <MESSAGE value="commenting most of the code to make a simple get request running" />
+    <option name="LAST_COMMIT_MESSAGE" value="commenting most of the code to make a simple get request running" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574846212755">
+    <state x="304" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574846793141">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574846212755" />
+    <state x="304" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574846793141" />
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574846683245">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574846683245" />
     <state x="33" y="113" key="DiffContextDialog" timestamp="1574845005397">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574845767241">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574847008009">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767241" />
-    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574845767240">
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574847008009" />
+    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574847008009">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767240" />
-    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574845767239">
+    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574847008009" />
+    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574847008008">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767239" />
-    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574845767241">
+    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574847008008" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574847008009">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767241" />
-    <state x="341" y="185" key="SettingsEditor" timestamp="1574840287036">
+    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574847008009" />
+    <state x="341" y="185" key="SettingsEditor" timestamp="1574847343009">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574840287036" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574846663479">
+    <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574847343009" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574846687100">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574846663479" />
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574839907733">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574846687100" />
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574848035546">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574839907733" />
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574848035546" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

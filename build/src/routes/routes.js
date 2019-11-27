@@ -1,11 +1,10 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = __importDefault(require("express"));
-const handler_1 = __importDefault(require("./handler"));
+const express_1 = require("express");
 const token = process.env.token;
-const router = express_1.default();
-router.post(`/${token}`, handler_1.default);
+const router = express_1.Router();
+//router.post(`/${token}`, handleRoutes);
+router.get('/', (req, res) => {
+    res.send('Hello from MomsPersonalBot!');
+});
 exports.default = router;

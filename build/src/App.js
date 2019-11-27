@@ -12,7 +12,6 @@ App.use(body_parser_1.default.urlencoded({ extended: false }));
 App.use(body_parser_1.default.json());
 App.use(routes_1.default);
 App.use(_404_1.default);
-//TODO set curr_update to 0 in environmental variables;
 exports.default = App;
 //TODO rename tokens to capital letters
 //TODO deploy to Azure
