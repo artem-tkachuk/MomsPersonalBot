@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-03-04T110201.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-03-04T110202.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +66,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -74,6 +78,26 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://momspersonalbot.azurewebsites.net/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;update_id&quot;: &quot;1001&quot;, &quot;message&quot;: {&quot;chat&quot;: {&quot;id&quot;: &quot;4801887&quot;}, &quot;text&quot;: &quot;/tj&quot;}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8443/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
@@ -502,7 +526,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager" selected="HTTP Request.rest-api_13#1">
+    <configuration name="rest-api_13#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_13.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="rest-api_5#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_5.http">
       <method v="2" />
     </configuration>
@@ -517,6 +544,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.rest-api_13#1" />
         <item itemvalue="HTTP Request.rest-api_7#1" />
         <item itemvalue="HTTP Request.rest-api_6#1" />
         <item itemvalue="HTTP Request.rest-api_5#1" />
@@ -553,7 +581,7 @@
       <workItem from="1554311056119" duration="382000" />
       <workItem from="1568412203113" duration="921000" />
       <workItem from="1574839899468" duration="4001000" />
-      <workItem from="1574844294798" duration="680000" />
+      <workItem from="1574844294798" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -576,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574845046753</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added scripts for auto compiling of typescript on every deployment">
+      <created>1574845178754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574845178754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,18 +652,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added scripts for auto compiling of typescript on every deployment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574845046630">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574845974516">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574845046630" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574845974516" />
     <state x="33" y="113" key="DiffContextDialog" timestamp="1574845005397">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom" timestamp="1574845767241">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="367" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767241" />
+    <state width="1638" height="367" key="GridCell.Tab.0.center" timestamp="1574845767240">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="367" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767240" />
+    <state width="1638" height="367" key="GridCell.Tab.0.left" timestamp="1574845767239">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="367" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767239" />
+    <state width="1638" height="367" key="GridCell.Tab.0.right" timestamp="1574845767241">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="367" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574845767241" />
     <state x="341" y="185" key="SettingsEditor" timestamp="1574840287036">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574840287036" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574845195342">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574845195342" />
     <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574839907733">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
