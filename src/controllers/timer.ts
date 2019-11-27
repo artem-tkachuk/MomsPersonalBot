@@ -1,8 +1,8 @@
 import request from "request";
 import send_message from "../telegram/telegram";
 
-var KEY = require('../../../keys/timecal_api_key.js').API_KEY;  //API access key
-var arrival_date = require('../../../keys/arrival_date.js').arrival_date;  //Next arrival date
+const KEY = process.env.TIMECAL_API_KEY;  //API access key
+const arrival_date = Date.parse("December  18, 2019 21:45:00");  //Next arrival date
 
 const MILLISECONDS_IN_DAY = 86400000;
 
