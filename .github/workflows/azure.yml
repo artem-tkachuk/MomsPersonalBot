@@ -17,12 +17,6 @@ env:
   AZURE_WEBAPP_NAME: 'MomsPersonalBot'    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '12'                # set this to the node version to use
-  ACCESS_CURRENCY_KEY: ${{secrets.ACCESS_CURRENCY_KEY}}
-  author_chat_id: ${{ secrets.author_chat_id }}
-  TIMECAL_API_KEY: ${{ secrets.TIMECAL_API_KEY }}
-  tjtoken: ${{ secrets.tjtoken }}
-  token: ${{ secrets.token }}
-  WEATHER_APPID: ${{ secrets.APPID }}  
 
 jobs:
   build-and-deploy:
