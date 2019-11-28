@@ -3,17 +3,9 @@ import send_message from "../telegram/telegram";
 const APPID= process.env.WEATHER_APPID; //API access key
 
 const getWeather = (chat_id: string, city: string) => {
-    const options = {
-        url: "http://api.openweathermap.org/data/2.5/weather",
-        qs: {
-            APPID: APPID,
-            units: "metric",
-            lang: "ru",
-            q: city
-        }
-    };
+    const url = `http://api.openweathermap.org/data/2.5/weather&appid=${APPID}&units=metric&lang=ru&q=${city}`;
 
-    request.get(options, (err, res, body) => {
+    request.get(url, (err, res, body) => {
         body = JSON.parse(body);
 
         const weather_features = {
