@@ -98,6 +98,652 @@
             </list>
           </option>
           <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;150&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/tj&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;150&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/tj&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="api.twitter.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="screen_name" />
+                <option name="value" value="tjournal" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="api.twitter.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="screen_name" />
+                <option name="value" value="tjournal" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="api.twitter.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="screen_name" />
+                <option name="value" value="tjournal" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="curl https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=tjournal&amp;count=5 -H" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="api.twitter.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="screen_name" />
+                <option name="value" value="tjournal" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="curl https://api.twitter.com/1.1/statuses/user_timeline.json?" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="api.twitter.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="curl https://api.twitter.com/1.1/statuses/user_timeline.json?" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="https://api.twitter.com/" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="screen_name" />
+                <option name="value" value="tjournal" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="screen_name" />
+                <option name="value" value="tjournal" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="screen_name" />
+                <option name="value" value="tjournal" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;screen_name&quot;: &quot;tjournal&quot;,&quot;count&quot;: &quot;5&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;screen_name&quot;: &quot;tjournal&quot;,&quot;count&quot;: 5}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;screen_name&quot;: &quot;tjournal&quot;,&#10;&quot;count&quot;: 5&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://api.twitter.com/1.1/statuses/user_timeline.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="MomsPersonalName" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="${{tjtoken}}" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="utf-16" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;screen_name&quot;: &quot;tjournal&quot;,&#10;&quot;count&quot;: 5&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
           <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;1001&quot;, &#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;4801887&quot;&#10;    }, &#10;    &quot;text&quot;: &quot;/tj&quot;&#10;  }&#10;}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
@@ -995,56 +1641,22 @@
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="/start" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.rest-api_21#3">
+    <configuration name="rest-api_21#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_21.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_21#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_21.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/app.js" working-dir="$PROJECT_DIR$">
       <envs>
         <env name="ACCESS_CURRENCY_KEY" value="5b19066abaab62aaa882eae3b087f5b9" />
         <env name="author_chat_id" value="48018875" />
         <env name="TIMECAL_API_KEY" value="PYDZV54GKIKS" />
-        <env name="tjtoken" value="QUFBQUFBQUFBQUFBQUFBQUFBQUFBRTVVOWdBQUFBQUFYaVRiVk5UczhQVlJCRXRDTzZLU240ajRNdGclM0RaaXlqRDFGSGRFQzdXNG9nb081cnU2NlUwdUFGYnNjbzFEQWNpSGFmRWpuN0cxQ2tUMA==" />
+        <env name="tjtoken" value="AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0" />
         <env name="token" value="743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
         <env name="WEATHER_APPID" value="d8973bd4eedd89114bd59d13392b06cc" />
         <env name="curr_update" value="0" />
@@ -1056,6 +1668,17 @@
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.rest-api_21#1" />
+      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="HTTP Request.rest-api_21#3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api_21#3" />
+        <item itemvalue="HTTP Request.rest-api_21#1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -1092,7 +1715,7 @@
       <workItem from="1574848033475" duration="4032000" />
       <workItem from="1574853219319" duration="1242000" />
       <workItem from="1574854733246" duration="562000" />
-      <workItem from="1574885223830" duration="5550000" />
+      <workItem from="1574885223830" duration="7821000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -1290,7 +1913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574893852792</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="A problem with TJ token">
+      <created>1574894189844</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1574894189844</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1339,7 +1969,8 @@
     <MESSAGE value="last commit for today" />
     <MESSAGE value="Will it deploy?" />
     <MESSAGE value="Fixed some errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some errors" />
+    <MESSAGE value="A problem with TJ token" />
+    <option name="LAST_COMMIT_MESSAGE" value="A problem with TJ token" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="201" key="#Deployment" timestamp="1574892321902">
@@ -1350,10 +1981,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#app.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574888373484" />
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574894160995">
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574905734400">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574894160995" />
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574905734400" />
     <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1574851829919">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -1362,18 +1993,18 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574854984277" />
-    <state x="584" y="401" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1574891313090">
+    <state x="584" y="401" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1574905417359">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="584" y="401" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574891313090" />
+    <state x="584" y="401" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574905417359" />
     <state x="530" y="234" key="#index.js" timestamp="1574852669317">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#index.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574852669317" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574893852663">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574894189719">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574893852663" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574894189719" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -1382,82 +2013,82 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1574893643536">
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1574905733607">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574893643536" />
-    <state width="562" height="912" key="GridCell.Tab.0.bottom" timestamp="1574894148843">
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574905733607" />
+    <state width="655" height="912" key="GridCell.Tab.0.bottom" timestamp="1574905896808">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="912" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574894148843" />
-    <state width="562" height="912" key="GridCell.Tab.0.center" timestamp="1574894148842">
+    <state width="655" height="912" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896808" />
+    <state width="655" height="912" key="GridCell.Tab.0.center" timestamp="1574905896808">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="912" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574894148842" />
-    <state width="562" height="912" key="GridCell.Tab.0.left" timestamp="1574894148842">
+    <state width="655" height="912" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896808" />
+    <state width="655" height="912" key="GridCell.Tab.0.left" timestamp="1574905896807">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="912" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574894148842" />
-    <state width="562" height="912" key="GridCell.Tab.0.right" timestamp="1574894148842">
+    <state width="655" height="912" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896807" />
+    <state width="655" height="912" key="GridCell.Tab.0.right" timestamp="1574905896808">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="912" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574894148842" />
-    <state width="562" height="476" key="GridCell.Tab.1.bottom" timestamp="1574894147689">
+    <state width="655" height="912" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896808" />
+    <state width="655" height="476" key="GridCell.Tab.1.bottom" timestamp="1574905896981">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147689" />
-    <state width="562" height="476" key="GridCell.Tab.1.center" timestamp="1574894147689">
+    <state width="655" height="476" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896981" />
+    <state width="655" height="476" key="GridCell.Tab.1.center" timestamp="1574905896979">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147689" />
-    <state width="562" height="476" key="GridCell.Tab.1.left" timestamp="1574894147689">
+    <state width="655" height="476" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896979" />
+    <state width="655" height="476" key="GridCell.Tab.1.left" timestamp="1574905896979">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147689" />
-    <state width="562" height="476" key="GridCell.Tab.1.right" timestamp="1574894147689">
+    <state width="655" height="476" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896979" />
+    <state width="655" height="476" key="GridCell.Tab.1.right" timestamp="1574905896980">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147689" />
-    <state width="562" height="476" key="GridCell.Tab.2.bottom" timestamp="1574894147690">
+    <state width="655" height="476" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896980" />
+    <state width="655" height="912" key="GridCell.Tab.2.bottom" timestamp="1574905896810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147690" />
-    <state width="562" height="476" key="GridCell.Tab.2.center" timestamp="1574894147690">
+    <state width="655" height="912" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896810" />
+    <state width="655" height="912" key="GridCell.Tab.2.center" timestamp="1574905896810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147690" />
-    <state width="562" height="476" key="GridCell.Tab.2.left" timestamp="1574894147690">
+    <state width="655" height="912" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896810" />
+    <state width="655" height="912" key="GridCell.Tab.2.left" timestamp="1574905896809">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147690" />
-    <state width="562" height="476" key="GridCell.Tab.2.right" timestamp="1574894147690">
+    <state width="655" height="912" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896809" />
+    <state width="655" height="912" key="GridCell.Tab.2.right" timestamp="1574905896810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147690" />
-    <state width="562" height="476" key="GridCell.Tab.3.bottom" timestamp="1574894147691">
+    <state width="655" height="912" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896810" />
+    <state width="655" height="912" key="GridCell.Tab.3.bottom" timestamp="1574905896811">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147691" />
-    <state width="562" height="476" key="GridCell.Tab.3.center" timestamp="1574894147691">
+    <state width="655" height="912" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896811" />
+    <state width="655" height="912" key="GridCell.Tab.3.center" timestamp="1574905896810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147691" />
-    <state width="562" height="476" key="GridCell.Tab.3.left" timestamp="1574894147691">
+    <state width="655" height="912" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896810" />
+    <state width="655" height="912" key="GridCell.Tab.3.left" timestamp="1574905896810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147691" />
-    <state width="562" height="476" key="GridCell.Tab.3.right" timestamp="1574894147691">
+    <state width="655" height="912" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896810" />
+    <state width="655" height="912" key="GridCell.Tab.3.right" timestamp="1574905896810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="562" height="476" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574894147691" />
+    <state width="655" height="912" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574905896810" />
     <state x="341" y="185" key="SettingsEditor" timestamp="1574892532328">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574892532328" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574893934122">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574894191634">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574893934122" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574894191634" />
     <state x="683" y="439" key="WebDeployment.AddServerDialog.v.1" timestamp="1574893195650">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -1496,22 +2127,16 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/build/src/controllers/tj.js</url>
-          <line>20</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/build/src/controllers/tj.js</url>
-          <line>18</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/controllers/tj.ts</url>
           <line>5</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/build/src/controllers/tj.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
