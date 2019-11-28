@@ -3,7 +3,7 @@ import send_message from "../telegram/telegram";
 const APPID= process.env.WEATHER_APPID; //API access key
 
 const getWeather = (chat_id: string, city: string) => {
-    const url = `http://api.openweathermap.org/data/2.5/weather&appid=${APPID}&units=metric&lang=ru&q=${city}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?appid=${APPID}&units=metric&lang=ru&q=${city}`;
 
     request.get(url, (err, res, body) => {
         body = JSON.parse(body);
@@ -20,9 +20,12 @@ const getWeather = (chat_id: string, city: string) => {
         };
 
         let result = `Сейчас в городе ${city}`;
-        // @ts-ignore
-        result += Object.keys(weather_features).forEach(feature => result += `${feature}:${weather_features[feature]}`);
-        send_message(chat_id, body);
+        //TODO refactor ES6
+        for (let feature in weather_features) {
+            // @ts-ignore
+            result += `${feature}${weather_features[feature]}\n`;
+        }
+        send_message(chat_id, result);
     });
 };
 
