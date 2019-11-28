@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
+    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="Testing TJ">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/tj.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/tj.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/weather.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/weather.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +76,222 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;1605&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/tj&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;1602&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/weathersac&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;1601&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/weathersac&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;160&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/weathersac&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;158&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/weathersac&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;158&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/weather&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;152&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/weather&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="momspersonalbot.azurewebsites.net" />
+                <option name="name" value="ARRAffinity" />
+                <option name="path" value="/" />
+                <option name="value" value="410a594c89e30755dbf2fda1f5649d570096e04aecb7eba54f97ba616b56f09f" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:1337/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;update_id&quot;: &quot;150&quot;,&#10;  &quot;message&quot;: {&#10;    &quot;chat&quot;: {&#10;      &quot;id&quot;: &quot;48018875&quot;&#10;    },&#10;    &quot;text&quot;: &quot;/weather&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -1454,200 +1673,23 @@
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://api.twitter.com/1.1/statuses/user_timeline.json" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Host" />
-                <option name="value" value="api.twitter.com" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="User-Agent" />
-                <option name="value" value="My Twitter App v1.0.23" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Authorization" />
-                <option name="value" value="Bearer AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Accept-Encoding" />
-                <option name="value" value="gzip" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="count" />
-                <option name="value" value="1" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="screen_name" />
-                <option name="value" value="tjournal" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;update_id&quot;: &quot;1001&quot;, &quot;message&quot;: {&quot;chat&quot;: {&quot;id&quot;: &quot;4801887&quot;}, &quot;text&quot;: &quot;/start&quot;}}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;update_id&quot;: &quot;1000&quot;, &quot;message&quot;: {&quot;chat&quot;: {&quot;id&quot;: &quot;48018875&quot;}, &quot;text&quot;: &quot;/start&quot;}}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;update_id&quot;: &quot;1000&quot;, &quot;message&quot;: {&quot;chat_id&quot;: &quot;48018875&quot;, &quot;original_text&quot;: &quot;/start&quot;}}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="/743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;update_id&quot;: &quot;1000&quot;, &quot;chat_id&quot;: &quot;48018875&quot;, &quot;original_text&quot;: &quot;/start&quot;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;update_id&quot;: &quot;1000&quot;, &quot;chat_id&quot;: &quot;48018875&quot;, &quot;original_text&quot;: &quot;/start&quot;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="'{&quot;update_id&quot;: &quot;1000&quot;, &quot;chat_id&quot;: &quot;48018875&quot;, &quot;original_text&quot;: &quot;/start&quot;}'" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8443" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
-    <configuration name="rest-api_21#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_21.http" runType="Run single request">
+    <configuration name="http-requests-log#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="rest-api_21#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_21.http" index="3" runType="Run single request">
+    <configuration name="http-requests-log#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="http-requests-log#11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="11" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="http-requests-log#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="http-requests-log#9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="9" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/app.js" working-dir="$PROJECT_DIR$">
@@ -1657,7 +1699,7 @@
         <env name="TIMECAL_API_KEY" value="PYDZV54GKIKS" />
         <env name="tjtoken" value="AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0" />
         <env name="token" value="743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
-        <env name="WEATHER_APPID" value="d8973bd4eedd89114bd59d13392b06cc" />
+        <env name="WEATHER_APPID" value="b9517023895df34b2b9555e1de549cae" />
         <env name="curr_update" value="0" />
       </envs>
       <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
@@ -1668,14 +1710,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.rest-api_21#1" />
+      <item itemvalue="HTTP Request.http-requests-log#8" />
+      <item itemvalue="HTTP Request.http-requests-log#9" />
+      <item itemvalue="HTTP Request.http-requests-log#10" />
+      <item itemvalue="HTTP Request.http-requests-log#11" />
       <item itemvalue="Node.js.app.js" />
-      <item itemvalue="HTTP Request.rest-api_21#3" />
+      <item itemvalue="HTTP Request.http-requests-log#1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.rest-api_21#3" />
-        <item itemvalue="HTTP Request.rest-api_21#1" />
+        <item itemvalue="HTTP Request.http-requests-log#1" />
+        <item itemvalue="HTTP Request.http-requests-log#11" />
+        <item itemvalue="HTTP Request.http-requests-log#10" />
+        <item itemvalue="HTTP Request.http-requests-log#9" />
+        <item itemvalue="HTTP Request.http-requests-log#8" />
       </list>
     </recent_temporary>
   </component>
@@ -1714,7 +1762,7 @@
       <workItem from="1574848033475" duration="4032000" />
       <workItem from="1574853219319" duration="1242000" />
       <workItem from="1574854733246" duration="562000" />
-      <workItem from="1574885223830" duration="7941000" />
+      <workItem from="1574885223830" duration="9803000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -1926,7 +1974,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574905974830</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Hopefully fixed TJ">
+      <created>1574906185107</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1574906185107</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1988,10 +2043,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#app.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574888373484" />
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574905734400">
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574908032898">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574905734400" />
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574908032898" />
     <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1574851829919">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2008,10 +2063,14 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#index.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574852669317" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574905974692">
+    <state x="530" y="161" key="#xdebugger.evaluate" timestamp="1574907908876">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574905974692" />
+    <state x="530" y="161" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1574907908876" />
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574908255617">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574908255617" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2020,82 +2079,82 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1574905733607">
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1574907725976">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574905733607" />
-    <state width="655" height="912" key="GridCell.Tab.0.bottom" timestamp="1574906177007">
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574907725976" />
+    <state width="681" height="912" key="GridCell.Tab.0.bottom" timestamp="1574908021722">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="912" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574906177007" />
-    <state width="655" height="912" key="GridCell.Tab.0.center" timestamp="1574906177006">
+    <state width="681" height="912" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574908021722" />
+    <state width="681" height="912" key="GridCell.Tab.0.center" timestamp="1574908021721">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="912" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574906177006" />
-    <state width="655" height="912" key="GridCell.Tab.0.left" timestamp="1574906177006">
+    <state width="681" height="912" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574908021721" />
+    <state width="681" height="912" key="GridCell.Tab.0.left" timestamp="1574908021721">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="912" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574906177006" />
-    <state width="655" height="912" key="GridCell.Tab.0.right" timestamp="1574906177006">
+    <state width="681" height="912" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574908021721" />
+    <state width="681" height="912" key="GridCell.Tab.0.right" timestamp="1574908021721">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="912" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574906177006" />
-    <state width="655" height="476" key="GridCell.Tab.1.bottom" timestamp="1574906173644">
+    <state width="681" height="912" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574908021721" />
+    <state width="681" height="476" key="GridCell.Tab.1.bottom" timestamp="1574908020016">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173644" />
-    <state width="655" height="476" key="GridCell.Tab.1.center" timestamp="1574906173643">
+    <state width="681" height="476" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020016" />
+    <state width="681" height="476" key="GridCell.Tab.1.center" timestamp="1574908020016">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173643" />
-    <state width="655" height="476" key="GridCell.Tab.1.left" timestamp="1574906173643">
+    <state width="681" height="476" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020016" />
+    <state width="681" height="476" key="GridCell.Tab.1.left" timestamp="1574908020016">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173643" />
-    <state width="655" height="476" key="GridCell.Tab.1.right" timestamp="1574906173643">
+    <state width="681" height="476" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020016" />
+    <state width="681" height="476" key="GridCell.Tab.1.right" timestamp="1574908020016">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173643" />
-    <state width="655" height="476" key="GridCell.Tab.2.bottom" timestamp="1574906173646">
+    <state width="681" height="476" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020016" />
+    <state width="681" height="476" key="GridCell.Tab.2.bottom" timestamp="1574908020017">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173646" />
-    <state width="655" height="476" key="GridCell.Tab.2.center" timestamp="1574906173645">
+    <state width="681" height="476" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020017" />
+    <state width="681" height="476" key="GridCell.Tab.2.center" timestamp="1574908020016">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173645" />
-    <state width="655" height="476" key="GridCell.Tab.2.left" timestamp="1574906173645">
+    <state width="681" height="476" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020016" />
+    <state width="681" height="476" key="GridCell.Tab.2.left" timestamp="1574908020016">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173645" />
-    <state width="655" height="476" key="GridCell.Tab.2.right" timestamp="1574906173646">
+    <state width="681" height="476" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020016" />
+    <state width="681" height="476" key="GridCell.Tab.2.right" timestamp="1574908020017">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173646" />
-    <state width="655" height="476" key="GridCell.Tab.3.bottom" timestamp="1574906173647">
+    <state width="681" height="476" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020017" />
+    <state width="681" height="476" key="GridCell.Tab.3.bottom" timestamp="1574908020018">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173647" />
-    <state width="655" height="476" key="GridCell.Tab.3.center" timestamp="1574906173647">
+    <state width="681" height="476" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020018" />
+    <state width="681" height="476" key="GridCell.Tab.3.center" timestamp="1574908020017">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173647" />
-    <state width="655" height="476" key="GridCell.Tab.3.left" timestamp="1574906173646">
+    <state width="681" height="476" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020017" />
+    <state width="681" height="476" key="GridCell.Tab.3.left" timestamp="1574908020017">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173646" />
-    <state width="655" height="476" key="GridCell.Tab.3.right" timestamp="1574906173647">
+    <state width="681" height="476" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020017" />
+    <state width="681" height="476" key="GridCell.Tab.3.right" timestamp="1574908020017">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="655" height="476" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574906173647" />
+    <state width="681" height="476" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574908020017" />
     <state x="341" y="185" key="SettingsEditor" timestamp="1574892532328">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574892532328" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574905977389">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574906187947">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574905977389" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574906187947" />
     <state x="683" y="439" key="WebDeployment.AddServerDialog.v.1" timestamp="1574893195650">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2144,6 +2203,29 @@
           <line>17</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/controllers/weather.ts</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/build/src/controllers/weather.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/build/src/controllers/weather.js</url>
+          <line>18</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/build/src/telegram/telegram.js</url>
+          <line>38</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
