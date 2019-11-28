@@ -19,7 +19,7 @@ const getWeather = (chat_id: string, city: string) => {
             'Закат: ': new Date(body.sys.sunset * 1000).getHours() + ":" + new Date(body.sys.sunset * 1000).getMinutes()
         };
 
-        let result = `Сейчас в городе ${city}`;
+        let result = `Погода дана на ближайшие 3 часа!\n\nСейчас в городе ${city}`;
         //TODO refactor ES6
         for (let feature in weather_features) {
             // @ts-ignore
