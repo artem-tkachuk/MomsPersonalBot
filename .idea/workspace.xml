@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/azure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/azure.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/weather.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/weather.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -1725,7 +1725,10 @@
       <workItem from="1574848033475" duration="4032000" />
       <workItem from="1574853219319" duration="1242000" />
       <workItem from="1574854733246" duration="562000" />
-      <workItem from="1574885223830" duration="12500000" />
+      <workItem from="1574885223830" duration="12572000" />
+      <workItem from="1575017216658" duration="32000" />
+      <workItem from="1575017259498" duration="67000" />
+      <workItem from="1575243768895" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -1972,7 +1975,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574911007505</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Some disclaimers">
+      <created>1574911204832</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574911204832</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2027,7 +2037,8 @@
     <MESSAGE value="fixed tj and testing weather.ts" />
     <MESSAGE value="Fixed weather.ts" />
     <MESSAGE value="Deleted some console.logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted some console.logs" />
+    <MESSAGE value="Some disclaimers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some disclaimers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="201" key="#Deployment" timestamp="1574892321902">
@@ -2062,10 +2073,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="161" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1574907908876" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574911007347">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1574911204715">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574911007347" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574911204715" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2142,14 +2153,14 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="681" height="476" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1574910990859" />
-    <state x="341" y="185" key="SettingsEditor" timestamp="1574892532328">
+    <state x="341" y="185" key="SettingsEditor" timestamp="1575017247621">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1574892532328" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574911009011">
+    <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1575017247621" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1574911207559">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574911009011" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1574911207559" />
     <state x="683" y="439" key="WebDeployment.AddServerDialog.v.1" timestamp="1574893195650">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2158,10 +2169,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="840" height="513" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1574910319597" />
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1574885224241">
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1575243768927">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574885224241" />
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575243768927" />
     <state x="489" y="282" width="701" height="508" key="find.popup" timestamp="1574910997850">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2178,25 +2189,21 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/controllers/tj.ts</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/index.ts</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/controllers/tj.ts</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/build/src/controllers/tj.js</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -2207,25 +2214,21 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/build/src/telegram/telegram.js</url>
           <line>38</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/build/src/controllers/weather.js</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/build/src/controllers/weather.js</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/build/src/controllers/weather.js</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
