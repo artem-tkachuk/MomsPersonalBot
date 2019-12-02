@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
 
+import Req from '../models/Request';
+
 import getStart from '../controllers/start';
 import getBtc from '../controllers/btc';
 import getTimeCal from "../controllers/timeCal";
@@ -10,7 +12,7 @@ import getWeather from "../controllers/weather";
 import tj from '../controllers/tj';
 import otherReq from '../controllers/otherReq';
 
-const handleRoutes = (req: Request, res: Response) => {
+const handleRoutes = async (req: Request, res: Response) => {
     //we do not need to send telegram any info right now, just let them know of success
     res.status(200).end();
 
@@ -23,7 +25,17 @@ const handleRoutes = (req: Request, res: Response) => {
         const chat_id = body.message.chat.id;
         const original_text: string = body.message.text;
 
-        // db.make_record(body, "Requests");                   //TODO log all incoming requests
+        await Req.create({
+            update_id: body.update_id,
+            id: body.message.from.id,
+            is_bot: body.message.from.is_bot,
+            first_name: body.message.from.first_name,
+            last_name: body.message.from.last_name,
+            username: body.message.from.username,
+            chat_id: body.message.chat.id,
+            message_date: body.message.date,
+            original_text: body.message.text
+        }); //log to db
 
         switch(original_text) {
             case "/start":
