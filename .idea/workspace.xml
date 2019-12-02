@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ebextensions/nodecommand.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MomsPersonalBot.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ebextensions/nodecommand.config" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1641,11 +1640,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="HTTP Request.rest-api_25#1">
     <configuration name="http-requests-log#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="http-requests-log#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="http-requests-log#11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="11" runType="Run single request">
@@ -1655,6 +1651,9 @@
       <method v="2" />
     </configuration>
     <configuration name="rest-api_23#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_23.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_25#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_25.http" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/app.js" working-dir="$PROJECT_DIR$">
@@ -1675,20 +1674,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.http-requests-log#10" />
       <item itemvalue="HTTP Request.http-requests-log#11" />
       <item itemvalue="HTTP Request.http-requests-log#1" />
       <item itemvalue="HTTP Request.rest-api_22#1" />
       <item itemvalue="HTTP Request.rest-api_23#1" />
       <item itemvalue="Node.js.app.js" />
+      <item itemvalue="HTTP Request.rest-api_25#1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.rest-api_25#1" />
         <item itemvalue="HTTP Request.rest-api_23#1" />
         <item itemvalue="HTTP Request.rest-api_22#1" />
         <item itemvalue="HTTP Request.http-requests-log#1" />
         <item itemvalue="HTTP Request.http-requests-log#11" />
-        <item itemvalue="HTTP Request.http-requests-log#10" />
       </list>
     </recent_temporary>
   </component>
@@ -1730,7 +1729,7 @@
       <workItem from="1574885223830" duration="12572000" />
       <workItem from="1575017216658" duration="32000" />
       <workItem from="1575017259498" duration="67000" />
-      <workItem from="1575243768895" duration="1204000" />
+      <workItem from="1575243768895" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -1991,7 +1990,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575243819471</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Removed unnecessary env variables in GitHub action config">
+      <created>1575245451906</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1575245451906</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2063,10 +2069,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574910904833" />
-    <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1574851829919">
+    <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575245519469">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1574851829919" />
+    <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1575245519469" />
     <state x="578" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1574854984277">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2083,10 +2089,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="161" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1574907908876" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1575243819322">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1575245451713">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575243819322" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575245451713" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2099,22 +2105,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574910904075" />
-    <state width="681" height="443" key="GridCell.Tab.0.bottom" timestamp="1575245097019">
+    <state width="681" height="580" key="GridCell.Tab.0.bottom" timestamp="1575245895691">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575245097019" />
-    <state width="681" height="443" key="GridCell.Tab.0.center" timestamp="1575245097018">
+    <state width="681" height="580" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575245895691" />
+    <state width="681" height="580" key="GridCell.Tab.0.center" timestamp="1575245895690">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575245097018" />
-    <state width="681" height="443" key="GridCell.Tab.0.left" timestamp="1575245097018">
+    <state width="681" height="580" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575245895690" />
+    <state width="681" height="580" key="GridCell.Tab.0.left" timestamp="1575245895690">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575245097018" />
-    <state width="681" height="443" key="GridCell.Tab.0.right" timestamp="1575245097018">
+    <state width="681" height="580" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575245895690" />
+    <state width="681" height="580" key="GridCell.Tab.0.right" timestamp="1575245895690">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575245097018" />
+    <state width="681" height="580" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575245895690" />
     <state width="681" height="476" key="GridCell.Tab.1.bottom" timestamp="1574910990857">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
