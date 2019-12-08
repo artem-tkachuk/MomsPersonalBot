@@ -33,7 +33,7 @@ jobs:
         # Build and test the project, then
         # deploy to Azure Web App.
         npm install
-        tsc &&  node ./build/app.js
+        tsc &&  node ./build/app.js && exit 1
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v1
       with:
