@@ -59,6 +59,6 @@ stages:
         azureSubscription: 'Free Trial(76b4cfc6-f24a-4d61-b62e-aae353546e44)'
         appType: 'webAppLinux'
         WebAppName: 'MomsPersonalBot'
-        packageForLinux: '$(System.DefaultWorkingDirectory)/*.zip'
+        packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
         RuntimeStack: 'NODE|10.10'
         StartupCommand: 'npm run start'
