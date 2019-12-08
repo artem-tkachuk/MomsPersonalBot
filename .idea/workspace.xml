@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="" />
+    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:artem-tkachuk/MomsPersonalBot.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1UBpZBxjIkGYamexFAPO9GPZ2iL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1732,7 +1742,8 @@
       <workItem from="1575798336223" duration="1361000" />
       <workItem from="1575799969208" duration="642000" />
       <workItem from="1575800746824" duration="1504000" />
-      <workItem from="1575803194337" duration="1661000" />
+      <workItem from="1575803194337" duration="2430000" />
+      <workItem from="1575806255946" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -2153,6 +2164,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="201" key="#Deployment/0.23.1680.1027@0.23.1680.1027" timestamp="1574892321902" />
+    <state x="440" y="201" key="#Notifications" timestamp="1575805111579">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="201" key="#Notifications/0.23.1680.1027@0.23.1680.1027" timestamp="1575805111579" />
     <state x="530" y="234" key="#app.js" timestamp="1574888373484">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2277,10 +2292,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1575017247621" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575804660013">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575805573198">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575804660013" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575805573198" />
     <state x="683" y="439" key="WebDeployment.AddServerDialog.v.1" timestamp="1574893195650">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2289,10 +2304,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="840" height="513" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1574910319597" />
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1575800746633">
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1575806255803">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575800746633" />
+    <state x="500" y="368" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575806255803" />
     <state x="622" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575804568039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2301,6 +2316,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="489" y="282" width="701" height="508" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1575803448141" />
+    <state x="433" y="316" key="git4idea.merge.GitPullDialog" timestamp="1575805607455">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="433" y="316" key="git4idea.merge.GitPullDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575805607455" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
