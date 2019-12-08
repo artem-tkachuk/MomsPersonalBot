@@ -36,8 +36,7 @@ stages:
       displayName: 'Install Node.js'
 
     - script: |
-        npm install
-        ./node_modules/bin/tsc - tsconfig.json
+        npm install && ./node_modules/bin/tsc -p tsconfig.json
       displayName: 'npm install, build and test'
       
     - task: ArchiveFiles@2
