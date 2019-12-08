@@ -7,7 +7,7 @@
     "test": "echo hello, world!",
     "tsc": "tsc",
     "run": "node ./build/app.js",
-    "start": "./node_modules/.bin/tsc -p tsconfig.json && node ./build/app.js"
+    "start": "node ./build/app.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.7.13",
     "request": "^2.88.0",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.2"
   }
 }
