@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="" />
+    <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/azure-pipelines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/azure-pipelines.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,8 +72,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/deploy" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/deploy" />
       <recent name="$PROJECT_DIR$/legacy/modules" />
       <recent name="$PROJECT_DIR$/legacy" />
       <recent name="$PROJECT_DIR$/src/modules" />
@@ -1729,14 +1732,7 @@
       <workItem from="1575799969208" duration="642000" />
       <workItem from="1575800746824" duration="1504000" />
       <workItem from="1575803194337" duration="2430000" />
-      <workItem from="1575806255946" duration="2214000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
-      <created>1568412909408</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1568412909408</updated>
+      <workItem from="1575806255946" duration="2818000" />
     </task>
     <task id="LOCAL-00002" summary="package.json change to run CI/CD">
       <created>1574844575239</created>
@@ -2074,7 +2070,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575806273926</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Azure pipelines moved to a separate folder">
+      <created>1575808718489</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1575808718490</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2150,7 +2153,8 @@
     <MESSAGE value="Removed unnecessary env variables in GitHub action config" />
     <MESSAGE value="Now deploying on AWS Elastic Beanstalk" />
     <MESSAGE value="Mongo for Azure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mongo for Azure" />
+    <MESSAGE value="Azure pipelines moved to a separate folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Azure pipelines moved to a separate folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="201" key="#Deployment" timestamp="1574892321902">
@@ -2165,10 +2169,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#app.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574888373484" />
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575807080992">
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575808975940">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575807080992" />
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575808975940" />
     <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575245519469">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2189,22 +2193,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="161" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1574907908876" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1575806273745">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1575808718212">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575806273745" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575808718212" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="426" height="644" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1574852505039" />
-    <state x="33" y="113" key="DiffContextDialog" timestamp="1574845005397">
+    <state x="33" y="113" key="DiffContextDialog" timestamp="1575809264621">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1575807000237">
+    <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575809264621" />
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1575808975036">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575807000237" />
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575808975036" />
     <state width="723" height="912" key="GridCell.Tab.0.bottom" timestamp="1575807108945">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2273,22 +2277,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="197" key="ImportDialog.Title/0.23.1680.1027@0.23.1680.1027" timestamp="1575804346352" />
-    <state x="168" y="114" key="MergeDialog" timestamp="1575800827474">
+    <state x="168" y="114" key="MergeDialog" timestamp="1575808745737">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="168" y="114" key="MergeDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575800827474" />
-    <state x="547" y="249" key="MultipleFileMergeDialog" timestamp="1575800827511">
+    <state x="168" y="114" key="MergeDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575808745737" />
+    <state x="547" y="249" key="MultipleFileMergeDialog" timestamp="1575808748104">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="547" y="249" key="MultipleFileMergeDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575800827511" />
+    <state x="547" y="249" key="MultipleFileMergeDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575808748104" />
     <state x="341" y="185" key="SettingsEditor" timestamp="1575017247621">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1575017247621" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575806277386">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575808759899">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575806277386" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575808759899" />
     <state x="683" y="439" key="WebDeployment.AddServerDialog.v.1" timestamp="1574893195650">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2309,10 +2313,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="489" y="282" width="701" height="508" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1575803448141" />
-    <state x="433" y="316" key="git4idea.merge.GitPullDialog" timestamp="1575805607455">
+    <state x="433" y="316" key="git4idea.merge.GitPullDialog" timestamp="1575809254605">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="433" y="316" key="git4idea.merge.GitPullDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575805607455" />
+    <state x="433" y="316" key="git4idea.merge.GitPullDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575809254605" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
