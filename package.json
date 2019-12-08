@@ -7,7 +7,7 @@
     "test": "echo hello, world!",
     "tsc": "tsc",
     "run": "node ./build/app.js",
-    "start": "./node_modules/typescript/bin/tsc && node ./build/app.js"
+    "start": "npm install && npm install typescript --save && ./node_modules/typescript/bin/tsc && node ./build/app.js"
   },
   "repository": {
     "type": "git",
