@@ -20,8 +20,6 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
-  MONGO_URL: $(MONGO_URL)
-
 stages:
 - stage: Build
   displayName: Build stage
