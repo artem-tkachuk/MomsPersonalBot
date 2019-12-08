@@ -8,7 +8,7 @@ const router = Router();
 
 router.post(`/${token}`, handleRoutes);
 router.get('/', (req, res) => {
-    res.send('Hello from MomsPersonalBot!');
+    res.send('Hello from my MomsPersonalBot!');
 });
 
 export default router;

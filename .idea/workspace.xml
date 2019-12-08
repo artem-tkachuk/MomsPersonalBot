@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7625eeb9-a030-4a7d-bfb8-cf31d0234fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azure-pipelines-1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/azure-pipelines.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deploy" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/legacy/modules" />
       <recent name="$PROJECT_DIR$/legacy" />
@@ -1646,23 +1650,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
-    <configuration name="http-requests-log#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="Node.js.TS Dev">
+    <configuration name="JS Prod" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/build">
+      <envs>
+        <env name="ACCESS_CURRENCY_KEY" value="5b19066abaab62aaa882eae3b087f5b9" />
+        <env name="author_chat_id" value="48018875" />
+        <env name="TIMECAL_API_KEY" value="PYDZV54GKIKS" />
+        <env name="tjtoken" value="AAAAAAAAAAAAAAAAAAAAAE5U9gAAAAAAXiTbVNTs8PVRBEtCO6KSn4j4Mtg%3DZiyjD1FHdEC7W4ogoO5ru66U0uAFbsco1DAciHafEjn7G1CkT0" />
+        <env name="token" value="743783565:AAEOkLQpG4_3j9cvkcw8vassWt5LBd7ehKU" />
+        <env name="WEATHER_APPID" value="b9517023895df34b2b9555e1de549cae" />
+        <env name="curr_update" value="0" />
+        <env name="MONGO_URL" value="mongodb+srv://artem:A2705002020t@momspersonalbot-girks.mongodb.net/MomsPersonalBot?retryWrites=true&amp;w=majority" />
+      </envs>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" start="true" url="http://localhost:3000/" />
+      </EXTENSION>
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
     </configuration>
-    <configuration name="http-requests-log#11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="11" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="rest-api_22#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_22.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="rest-api_23#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_23.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="rest-api_25#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_25.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/app.js" working-dir="$PROJECT_DIR$">
+    <configuration name="TS Dev" type="NodeJSConfigurationType" application-parameters="--project tsconfig.json" node-parameters="--require ts-node/register" path-to-js-file="app.ts" working-dir="$PROJECT_DIR$">
       <envs>
         <env name="ACCESS_CURRENCY_KEY" value="5b19066abaab62aaa882eae3b087f5b9" />
         <env name="author_chat_id" value="48018875" />
@@ -1676,27 +1683,12 @@
       <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
         <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" url="http://localhost:1337" />
       </EXTENSION>
-      <method v="2">
-        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
-      </method>
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.http-requests-log#11" />
-      <item itemvalue="HTTP Request.http-requests-log#1" />
-      <item itemvalue="HTTP Request.rest-api_22#1" />
-      <item itemvalue="HTTP Request.rest-api_23#1" />
-      <item itemvalue="HTTP Request.rest-api_25#1" />
-      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="Node.js.JS Prod" />
+      <item itemvalue="Node.js.TS Dev" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.rest-api_25#1" />
-        <item itemvalue="HTTP Request.rest-api_23#1" />
-        <item itemvalue="HTTP Request.rest-api_22#1" />
-        <item itemvalue="HTTP Request.http-requests-log#1" />
-        <item itemvalue="HTTP Request.http-requests-log#11" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -1743,7 +1735,7 @@
       <workItem from="1575799969208" duration="642000" />
       <workItem from="1575800746824" duration="1504000" />
       <workItem from="1575803194337" duration="2430000" />
-      <workItem from="1575806255946" duration="14000" />
+      <workItem from="1575806255946" duration="1790000" />
     </task>
     <task id="LOCAL-00001" summary="Added a simple module to send a message to a specific user from the terminal using process.argv">
       <created>1568412909408</created>
@@ -2081,7 +2073,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575804591285</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Mongo for Azure">
+      <created>1575806273926</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1575806273926</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2172,10 +2171,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="234" key="#app.js/0.23.1680.1027@0.23.1680.1027" timestamp="1574888373484" />
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575800414225">
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575807080992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575800414225" />
+    <state x="216" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575807080992" />
     <state x="549" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575245519469">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2196,10 +2195,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="530" y="161" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1574907908876" />
-    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1575804591077">
+    <state x="246" y="51" key="CommitChangelistDialog2" timestamp="1575806273745">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575804591077" />
+    <state x="246" y="51" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575806273745" />
     <state width="426" height="644" key="DebuggerActiveHint" timestamp="1574852505039">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2208,74 +2207,74 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="33" y="113" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1574845005397" />
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1575799159053">
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog" timestamp="1575807000237">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575799159053" />
-    <state width="681" height="443" key="GridCell.Tab.0.bottom" timestamp="1575800433731">
+    <state x="0" y="23" width="840" height="1027" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575807000237" />
+    <state width="723" height="912" key="GridCell.Tab.0.bottom" timestamp="1575807108945">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433731" />
-    <state width="681" height="443" key="GridCell.Tab.0.center" timestamp="1575800433730">
+    <state width="723" height="912" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575807108945" />
+    <state width="723" height="912" key="GridCell.Tab.0.center" timestamp="1575807108944">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433730" />
-    <state width="681" height="443" key="GridCell.Tab.0.left" timestamp="1575800433730">
+    <state width="723" height="912" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575807108944" />
+    <state width="723" height="912" key="GridCell.Tab.0.left" timestamp="1575807108943">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433730" />
-    <state width="681" height="443" key="GridCell.Tab.0.right" timestamp="1575800433731">
+    <state width="723" height="912" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575807108943" />
+    <state width="723" height="912" key="GridCell.Tab.0.right" timestamp="1575807108945">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433731" />
-    <state width="681" height="443" key="GridCell.Tab.1.bottom" timestamp="1575800433734">
+    <state width="723" height="912" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575807108945" />
+    <state width="723" height="475" key="GridCell.Tab.1.bottom" timestamp="1575807107661">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433734" />
-    <state width="681" height="443" key="GridCell.Tab.1.center" timestamp="1575800433733">
+    <state width="723" height="475" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107661" />
+    <state width="723" height="475" key="GridCell.Tab.1.center" timestamp="1575807107661">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433733" />
-    <state width="681" height="443" key="GridCell.Tab.1.left" timestamp="1575800433732">
+    <state width="723" height="475" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107661" />
+    <state width="723" height="475" key="GridCell.Tab.1.left" timestamp="1575807107660">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433732" />
-    <state width="681" height="443" key="GridCell.Tab.1.right" timestamp="1575800433733">
+    <state width="723" height="475" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107660" />
+    <state width="723" height="475" key="GridCell.Tab.1.right" timestamp="1575807107661">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433733" />
-    <state width="681" height="443" key="GridCell.Tab.2.bottom" timestamp="1575800433735">
+    <state width="723" height="475" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107661" />
+    <state width="723" height="475" key="GridCell.Tab.2.bottom" timestamp="1575807107663">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433735" />
-    <state width="681" height="443" key="GridCell.Tab.2.center" timestamp="1575800433734">
+    <state width="723" height="475" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107663" />
+    <state width="723" height="475" key="GridCell.Tab.2.center" timestamp="1575807107662">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433734" />
-    <state width="681" height="443" key="GridCell.Tab.2.left" timestamp="1575800433734">
+    <state width="723" height="475" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107662" />
+    <state width="723" height="475" key="GridCell.Tab.2.left" timestamp="1575807107662">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433734" />
-    <state width="681" height="443" key="GridCell.Tab.2.right" timestamp="1575800433734">
+    <state width="723" height="475" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107662" />
+    <state width="723" height="475" key="GridCell.Tab.2.right" timestamp="1575807107663">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433734" />
-    <state width="681" height="443" key="GridCell.Tab.3.bottom" timestamp="1575800433736">
+    <state width="723" height="475" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107663" />
+    <state width="723" height="475" key="GridCell.Tab.3.bottom" timestamp="1575807107664">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433736" />
-    <state width="681" height="443" key="GridCell.Tab.3.center" timestamp="1575800433735">
+    <state width="723" height="475" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107664" />
+    <state width="723" height="475" key="GridCell.Tab.3.center" timestamp="1575807107663">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433735" />
-    <state width="681" height="443" key="GridCell.Tab.3.left" timestamp="1575800433735">
+    <state width="723" height="475" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107663" />
+    <state width="723" height="475" key="GridCell.Tab.3.left" timestamp="1575807107663">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433735" />
-    <state width="681" height="443" key="GridCell.Tab.3.right" timestamp="1575800433735">
+    <state width="723" height="475" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107663" />
+    <state width="723" height="475" key="GridCell.Tab.3.right" timestamp="1575807107664">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="681" height="443" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575800433735" />
+    <state width="723" height="475" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575807107664" />
     <state x="578" y="197" key="ImportDialog.Title" timestamp="1575804346352">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2292,10 +2291,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1575017247621" />
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575805573198">
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2" timestamp="1575806277386">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575805573198" />
+    <state x="20" y="271" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575806277386" />
     <state x="683" y="439" key="WebDeployment.AddServerDialog.v.1" timestamp="1574893195650">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -2328,16 +2327,6 @@
           <url>file://$PROJECT_DIR$/src/modules/db.js</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/controllers/tj.ts</url>
-          <line>2</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/controllers/tj.ts</url>
-          <line>5</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/build/src/controllers/tj.js</url>
