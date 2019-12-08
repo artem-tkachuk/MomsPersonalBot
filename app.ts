@@ -1,11 +1,6 @@
 import app from './src/index';
-import aurora from "./src/database/aurora";
+import mongo from "./src/database/mongo";
 
-const port = process.env.PORT || 1337;
+const port = parseInt(process.env.PORT!) || 3000;
 
-aurora.sync()
-    .then(result => {
-        app.listen(port);
-    });
-
-console.log(`Bot is running on the default port ${port}`);
+mongo(app, port);

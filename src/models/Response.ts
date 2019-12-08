@@ -1,48 +1,38 @@
-import aurora from "../database/aurora";
-import * as Sequelize from "sequelize";
+import mongoose from 'mongoose';
 
-const attributes = {
+const responseSchema = new mongoose.Schema({
     ok: {
-        type: Sequelize.DataTypes.BOOLEAN
+        type: Boolean
     },
-
     from_id: {
-        type: Sequelize.DataTypes.NUMBER
+        type: Number
     },
-
     from_is_bot: {
-        type: Sequelize.DataTypes.BOOLEAN
+        type: Boolean
     },
-
     from_username: {
-        type: Sequelize.DataTypes.STRING
+        type: String
     },
-
     first_name: {
-        type: Sequelize.DataTypes.STRING
+        type: String
     },
-
     last_name: {
-        type: Sequelize.DataTypes.STRING
+        type: String
     },
-
     username: {
-        type: Sequelize.DataTypes.STRING
+        type: String
     },
-
     chat_id: {
-        type: Sequelize.DataTypes.NUMBER
+        type: Number
     },
-
     message_date: {
-        type: Sequelize.DataTypes.DATE
+        type: Date
     },
-
     original_text: {
-        type: Sequelize.DataTypes.STRING
+        type: String
     }
-};
+});
 
-const Response = aurora.define('response', attributes);
+const Response = mongoose.model('Response', responseSchema, 'responses');
 
 export default Response;

@@ -41,7 +41,7 @@ const send_message = (chat_id: string, result: string) => {
 	    if (!body.ok) {
             send_message(author_chat_id!, "SECURITY\n\nЧто-то не так с MomsPersonalBot!\nПользователь с chat_id = " + chat_id.toString()); //let me know
         } else {
-		    await Response.create({
+		    const response = new Response({
                 ok: body.ok,
                 from_id: body.result.from.id,
                 from_is_bot: body.result.from.is_bot,
@@ -53,6 +53,9 @@ const send_message = (chat_id: string, result: string) => {
                 message_date: body.result.date,
                 original_text: body.result.text
 		    });
+		    response.save().then(() => {
+		        console.log(`Wrote response to mongo`);
+            })
 	    }
     });
 };

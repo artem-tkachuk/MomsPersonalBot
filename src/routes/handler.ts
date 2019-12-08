@@ -25,7 +25,7 @@ const handleRoutes = async (req: Request, res: Response) => {
         const chat_id = body.message.chat.id;
         const original_text: string = body.message.text;
 
-        await Req.create({
+        const request = new Req({
             update_id: body.update_id,
             id: body.message.from.id,
             is_bot: body.message.from.is_bot,
@@ -35,7 +35,10 @@ const handleRoutes = async (req: Request, res: Response) => {
             chat_id: body.message.chat.id,
             message_date: body.message.date,
             original_text: body.message.text
-        }); //log to db
+        });
+        request.save().then(() => {
+           console.log(`Logged request to mongo`);
+        });
 
         switch(original_text) {
             case "/start":
