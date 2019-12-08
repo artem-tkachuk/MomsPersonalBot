@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    ./node_modules/.bin/tsc -p tsconfig.json && node ./build/app.js
+    tsc && node ./build/app.js
   displayName: 'npm install and build'
